@@ -41,7 +41,7 @@ namespace CodeWarsSolutions.SixKyu
             List<long> primes = new List<long>();
             long currentNumber = m;
             int limit = 0;
-            long[] validPrimesList;
+            long? firstValidPrime;
 
             while (currentNumber <= n)
             {
@@ -57,14 +57,14 @@ namespace CodeWarsSolutions.SixKyu
 
                         if (primes.Count > 2)
                         {
-                            validPrimesList = primes.Where(a => primes.Contains(a + g)).ToArray();
 
-                            if (validPrimesList.Length > 0)
+                            firstValidPrime = CheckPrimesWithSteps(primes, g);
+                            if (firstValidPrime != null)
                             {
-                                return new long[] { (int)validPrimesList[0], (int)validPrimesList[0] + g };
+                                return new long[] { (long)firstValidPrime, (long)firstValidPrime + g };
                             }
-                            //Reduces the list od primes to only the acceptable ones
-                            primes = primes.Where(x => x >= (primes[primes.Count - 1] - g)).ToList();
+                            //Reduces the list of primes to only the acceptable ones
+                            primes = FilterPrimes(primes,g);
 
                         }
 
@@ -73,14 +73,33 @@ namespace CodeWarsSolutions.SixKyu
                 currentNumber++;
             }
 
-            validPrimesList = primes.Where(a => primes.Contains(a + g)).ToArray();
-
-            if (validPrimesList.Length > 0)
+            firstValidPrime = CheckPrimesWithSteps(primes, g);
+            if (firstValidPrime != null)
             {
-                return new long[] { (int)validPrimesList[0], (int)validPrimesList[0] + g };
+                return new long[] { (long)firstValidPrime, (long)firstValidPrime + g };
             }
 
             return null;
         }
+
+        public static List<long> FilterPrimes (List<long> primes, int step) => primes.Where(x => x >= (primes[primes.Count - 1] - step)).ToList();
+
+        public static long? CheckPrimesWithSteps( List<long> primes, int step)
+        {
+            long[] validPrimesList;
+
+            if (primes.Count > 2)
+            {
+                validPrimesList = primes.Where(a => primes.Contains(a + step)).ToArray();
+
+                if (validPrimesList.Length > 0)
+                {
+                    return (int)validPrimesList[0];
+                }
+
+            }
+            return null;
+        }
+
     }
 }
