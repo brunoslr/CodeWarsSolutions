@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Beta\LookAndSayHowWasIt.cs" />
+    <Compile Include="Beta\TrojanXMLParse.cs" />
     <Compile Include="FiveKyu\WeirdPrimeGenerator.cs" />
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
