@@ -69,6 +69,7 @@
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\DescendingOrderKata.cs" />
+    <Compile Include="SevenKyu\LiningUpStudents.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
     <Compile Include="SixKyu\DayCount.cs" />
     <Compile Include="SixKyu\MinutesToMidnight.cs" />
