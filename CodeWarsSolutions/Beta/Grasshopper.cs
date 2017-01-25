@@ -82,9 +82,9 @@ namespace CodeWarsSolutions.Beta
         /// <param name="position">Position.</param>
         public Grasshopper(int n, int position)
         {
-            this.currentPos = position;
+            currentPos = position;
 
-            this.list = Enumerable.Range(1, n).ToList();
+            list = Enumerable.Range(1, n).ToList();
         }
 
         /// <summary>
@@ -93,9 +93,9 @@ namespace CodeWarsSolutions.Beta
         public void EatAndHopLeft()
         {
             int eat = currentPos;
-            this.currentPos = list[list.IndexOf(currentPos) - 2];
+            currentPos = list[list.IndexOf(currentPos) - 2];
 
-            this.list.Remove(eat);
+            list.Remove(eat);
         }
 
         /// <summary>
@@ -104,9 +104,9 @@ namespace CodeWarsSolutions.Beta
         public void EatAndHopRight()
         {
             int eat = currentPos;
-            this.currentPos = list[list.IndexOf(currentPos) + 2];
+            currentPos = list[list.IndexOf(currentPos) + 2];
 
-            this.list.Remove(eat);
+           list.Remove(eat);
         }
 
         /// <returns>Leaf number that grasshopper is feeding on right now.</returns>
