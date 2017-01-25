@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Beta\ChangeDateFormat.cs" />
+    <Compile Include="Beta\Grasshopper.cs" />
     <Compile Include="Beta\LookAndSayHowWasIt.cs" />
     <Compile Include="Beta\TrojanXMLParse.cs" />
     <Compile Include="FiveKyu\WeirdPrimeGenerator.cs" />
