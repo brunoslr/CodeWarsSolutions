@@ -5,13 +5,54 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Serialization;
 
+using System.Xml.Linq; //Quick Solution
+
 /* O XML retorna o estado atual em uma estrutura de 
  * organizada em SNAPSHOTs (GIT - Like). Todo arquivo que estiver na mesma estrutura do
- * arquivo infectado tambem esta comprometido. Crie uma funcao que retorne o total de
- * arquivos comprometidos
- */
+ * arquivo infectado tambem esta comprometido. Crie uma funcao que retorne o total 
+ * de IDs únicos dos arquivos comprometidos (arquivo infectado nao conta)
+     
+namespace CodeWarsSolutions.Beta
+{
+    public class Trojan
+    {
+        public static int CountCompromised(string xml, string infectedFileId)
+        {
+            throw new InvalidOperationException("Waiting to be implemented.");
+        }
 
-namespace CurrentTest
+        static void Main(string[] args)
+        {
+            string xml =
+                "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
+                "<root>" +
+                "   <snapshot>" +
+                "      <folder>" +
+                "         <file fileId=\"1\"/>" +
+                "         <file fileId=\"3\"/>" +
+                "         <folder>" +
+                "            <file fileId=\"3\"/>" +
+                "            <file fileId=\"4\"/>" +
+                "         </folder>" +
+                "      </folder>" +
+                "   </snapshot>" +
+                "   <snapshot>" +
+                "      <file fileId=\"1\"/>" +
+                "      <file fileId=\"3\"/>" +
+                "      <folder>" +
+                "         <file fileId=\"2\"/>" +
+                "         <file fileId=\"4\"/>" +
+                "      </folder>" +
+                "   </snapshot>" +
+                "</root>";
+
+            Console.WriteLine(CountCompromised(xml, "3"));
+        }
+    }
+}
+*/
+
+namespace CodeWarsSolutions.Beta
 {
 
     [XmlRoot("root")]
@@ -19,6 +60,18 @@ namespace CurrentTest
     {
         [XmlElement("snapshot")]
         public List<Snapshot> snapshots { get; set; }
+
+
+        public void CheckCompromisedFolders(string infectedFileId)
+        {
+            foreach (Snapshot s in snapshots)
+            {
+                foreach (Folder f in s.folders)
+                {
+                    f.CheckFolder(infectedFileId);
+                }
+            }
+        }
     }
 
     public class Snapshot
@@ -72,14 +125,8 @@ namespace CurrentTest
                 data = serializer.Deserialize(reader) as Data;
             }
 
-            foreach (Snapshot s in data.snapshots)
-            {
-                foreach (Folder f in s.folders)
-                {
-                    f.CheckFolder(infectedFileId);
-                }
+            data.CheckCompromisedFolders(infectedFileId);
 
-            }
             Console.WriteLine(string.Join(",", infectedList));
             return infectedList.Count - 1;
         }
@@ -133,6 +180,69 @@ namespace CurrentTest
                 "</root>";
 
             Console.WriteLine(CountCompromised(xml, "2"));
+        }
+    }
+}
+
+
+
+namespace CodeWarsSolutions.LinqSolution
+{
+    public class Trojan
+    {
+
+        public static int CountCompromised(string xml, string infected)
+        {
+            XElement xmlDocument = XElement.Parse(xml);
+
+            return xmlDocument
+                .Descendants("file")
+                .Where(e => e.Attribute("fileId").Value == infected)
+                .SelectMany(e => e.Parent.Elements("file").Attributes("fileId"))
+                .Select(e => e.Value).Distinct().Count() - 1;
+        }
+
+
+
+        static void Main(string[] args)
+        {
+            string xml =
+                "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
+                "<root>" +
+                "   <snapshot>" +
+                "      <folder>" +
+                "         <file fileId=\"1\"/>" +
+                "         <file fileId=\"3\"/>" +
+                "         <file fileId=\"6\"/>" +
+                "         <folder>" +
+                "            <file fileId=\"3\"/>" +
+                "            <file fileId=\"4\"/>" +
+                "            <folder> " +
+                "               <file fileId=\"3\"/>" +
+                "               <file fileId=\"5\"/>" +
+                "               <folder> " +
+                "                   <file fileId=\"7\"/>" +
+                "                   <file fileId=\"2\"/>" +
+                "               </folder>" +
+                "            </folder>" +
+                "         </folder>" +
+                "      </folder>" +
+                "   </snapshot>" +
+                "   <snapshot>" +
+                "      <file fileId=\"1\"/>" +
+                "      <file fileId=\"3\"/>" +
+                "      <folder>" +
+                "         <file fileId=\"2\"/>" +
+                "         <file fileId=\"4\"/>" +
+                "         <folder>" +
+                "            <file fileId=\"3\"/>" +
+                "            <file fileId=\"4\"/>" +
+                "         </folder>" +
+                "      </folder>" +
+                "   </snapshot>" +
+                "</root>";
+
+            Console.WriteLine(CountCompromised(xml, "3"));
         }
     }
 }
