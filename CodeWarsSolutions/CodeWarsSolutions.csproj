@@ -68,6 +68,7 @@
     <Compile Include="Beta\Grasshopper.cs" />
     <Compile Include="Beta\LookAndSayHowWasIt.cs" />
     <Compile Include="Beta\TrojanXMLParse.cs" />
+    <Compile Include="EightKyu\QuickOnes.cs" />
     <Compile Include="FiveKyu\WeirdPrimeGenerator.cs" />
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

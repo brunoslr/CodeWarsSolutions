@@ -10,7 +10,7 @@ using System.Xml.Linq; //Quick Solution
 /* O XML retorna o estado atual em uma estrutura de 
  * organizada em SNAPSHOTs (GIT - Like). Todo arquivo que estiver na mesma estrutura do
  * arquivo infectado tambem esta comprometido. Crie uma funcao que retorne o total 
- * de IDs únicos dos arquivos comprometidos (arquivo infectado nao conta)
+ * de IDs únicos dos arquivos comprometidos (arquivo infectado passado como parametro nao conta)
      
 namespace CodeWarsSolutions.Beta
 {
@@ -195,8 +195,7 @@ namespace CodeWarsSolutions.LinqSolution
         {
             XElement xmlDocument = XElement.Parse(xml);
 
-            return xmlDocument
-                .Descendants("file")
+            return xmlDocument.Descendants("file")
                 .Where(e => e.Attribute("fileId").Value == infected)
                 .SelectMany(e => e.Parent.Elements("file").Attributes("fileId"))
                 .Select(e => e.Value).Distinct().Count() - 1;
