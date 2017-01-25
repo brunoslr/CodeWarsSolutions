@@ -27,13 +27,13 @@ namespace CodeWarsSolutions.Beta
     {
         public static string ChangeDateFormat(string paragraph)
         {
-            return Regex.Replace(paragraph,
-                @"\b(\d{2})/(\d{2})/(\d{4})\b", "${1}/${2}/${3}");
+            return Regex.Replace(paragraph, @"\b(\d{2})/(\d{2})/(\d{4})\b", "${2}/${1}/${3}");
+            //return Regex.Replace(paragraph, @"(?<month>\d{2})/(?<day>\d{2})/(?<year>\d{4})", @"${day}/${month}/${year}"); ;
         }
 
         public static void Main(string[] args)
         {
-            Console.WriteLine(ChangeDateFormat("Last time it rained was on 07/08/2016 and today is 01/25/2013."));
+            Console.WriteLine(ChangeDateFormat("Last time it rained was on 07/08/2016 and today is 01/25/2017."));
             Console.ReadLine();
         }
     }    
