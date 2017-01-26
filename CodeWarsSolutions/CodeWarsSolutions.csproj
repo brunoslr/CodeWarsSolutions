@@ -76,6 +76,7 @@
     <Compile Include="SevenKyu\LiningUpStudents.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
     <Compile Include="SixKyu\DayCount.cs" />
+    <Compile Include="SixKyu\GeneticAlgorithmSeries_Selection.cs" />
     <Compile Include="SixKyu\MinutesToMidnight.cs" />
     <Compile Include="SixKyu\ReducingByRules.cs" />
     <Compile Include="SixKyu\StepInPrimes .cs" />
