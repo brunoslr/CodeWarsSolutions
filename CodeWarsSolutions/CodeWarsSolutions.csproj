@@ -84,6 +84,7 @@
     <Compile Include="SixKyu\MinutesToMidnight.cs" />
     <Compile Include="SixKyu\ReducingByRules.cs" />
     <Compile Include="SixKyu\StepInPrimes .cs" />
+    <Compile Include="SixKyu\TripleDouble.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
