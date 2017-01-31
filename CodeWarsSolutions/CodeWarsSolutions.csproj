@@ -68,6 +68,7 @@
     <Compile Include="Beta\DebugFixTheError.cs" />
     <Compile Include="Beta\Grasshopper.cs" />
     <Compile Include="Beta\LookAndSayHowWasIt.cs" />
+    <Compile Include="Beta\PlayWithTwoStrings.cs" />
     <Compile Include="Beta\TrojanXMLParse.cs" />
     <Compile Include="EightKyu\QuickOnes.cs" />
     <Compile Include="FiveKyu\HelpYourGranny.cs" />
