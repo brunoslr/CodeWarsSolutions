@@ -73,12 +73,14 @@
     <Compile Include="Beta\TrojanXMLParse.cs" />
     <Compile Include="EightKyu\QuickOnes.cs" />
     <Compile Include="FiveKyu\HelpYourGranny.cs" />
+    <Compile Include="FiveKyu\RegexWithBranching.cs" />
     <Compile Include="FiveKyu\WeirdPrimeGenerator.cs" />
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\DescendingOrderKata.cs" />
     <Compile Include="SevenKyu\LiningUpStudents.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
+    <Compile Include="SixKyu\CountSmileys.cs" />
     <Compile Include="SixKyu\DayCount.cs" />
     <Compile Include="SixKyu\DivisibleByThirteen.cs" />
     <Compile Include="SixKyu\GeneticAlgorithmSeries_Selection.cs" />
