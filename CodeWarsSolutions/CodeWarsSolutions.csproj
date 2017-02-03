@@ -80,6 +80,7 @@
     <Compile Include="SevenKyu\CubeChecker.cs" />
     <Compile Include="SevenKyu\DescendingOrderKata.cs" />
     <Compile Include="SevenKyu\LiningUpStudents.cs" />
+    <Compile Include="SevenKyu\SumofMultiples.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
     <Compile Include="SixKyu\CountSmileys.cs" />
     <Compile Include="SixKyu\DayCount.cs" />
