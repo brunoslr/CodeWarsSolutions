@@ -84,6 +84,7 @@
     <Compile Include="SevenKyu\LeetEncoder.cs" />
     <Compile Include="SevenKyu\LiningUpStudents.cs" />
     <Compile Include="SevenKyu\SumofMultiples.cs" />
+    <Compile Include="SixKyu\BingoCard.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
     <Compile Include="SixKyu\CountSmileys.cs" />
     <Compile Include="SixKyu\DayCount.cs" />
