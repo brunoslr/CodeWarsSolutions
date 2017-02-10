@@ -83,6 +83,7 @@
     <Compile Include="SevenKyu\DescendingOrderKata.cs" />
     <Compile Include="SevenKyu\LeetEncoder.cs" />
     <Compile Include="SevenKyu\LiningUpStudents.cs" />
+    <Compile Include="SevenKyu\ReplaceEveryNth.cs" />
     <Compile Include="SevenKyu\SumofMultiples.cs" />
     <Compile Include="SixKyu\BingoCard.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
