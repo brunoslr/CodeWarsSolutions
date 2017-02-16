@@ -87,6 +87,7 @@
     <Compile Include="SevenKyu\LinqBasics.cs" />
     <Compile Include="SevenKyu\ReplaceEveryNth.cs" />
     <Compile Include="SevenKyu\SumofMultiples.cs" />
+    <Compile Include="SevenKyu\TimeString.cs" />
     <Compile Include="SixKyu\BingoCard.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
     <Compile Include="SixKyu\CountSmileys.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="SixKyu\DeadAnts.cs" />
     <Compile Include="SixKyu\DigitalRoot.cs" />
     <Compile Include="SixKyu\DivisibleByThirteen.cs" />
+    <Compile Include="SixKyu\FinancingPlan.cs" />
     <Compile Include="SixKyu\GeneticAlgorithmSeries_Selection.cs" />
     <Compile Include="SixKyu\MinutesToMidnight.cs" />
     <Compile Include="SixKyu\ReduceFractions.cs" />
