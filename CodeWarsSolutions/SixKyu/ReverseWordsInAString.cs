@@ -5,7 +5,6 @@ Example:
 Kata.ReverseWords("The greatest victory is that which requires no battle");
 // should return "battle no requires which that is victory greatest The"
  */
-using System;
 using System.Linq;
 
 namespace CodeWarsSolutions.SixKyu
@@ -14,7 +13,7 @@ namespace CodeWarsSolutions.SixKyu
     {
         public static string ReverseWords(string str)
         {
-            return String.Join(" ", str.Split(' ').Reverse());
+            return string.Join(" ", str.Split(' ').Reverse());
         }
     }
 }
