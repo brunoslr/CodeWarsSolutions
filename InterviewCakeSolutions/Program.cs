@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterviewCakeSolutions
+using System;
+namespace Solution
 {
-    class Program
+    class Solution
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            // Run your function through some test cases here.
+            // Remember: debugging is half the battle!
+            for(int i=0;i<100;i++)
+                Console.WriteLine(InterviewCakeSolutions.WeeklySolutions.RandomSevenFromFive.Rand7());
         }
     }
 }
