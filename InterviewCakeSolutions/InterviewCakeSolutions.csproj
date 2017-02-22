@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeeklySolutions\PalindromePermutation.cs" />
+    <Compile Include="WeeklySolutions\RecursiveStringPermutations.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
