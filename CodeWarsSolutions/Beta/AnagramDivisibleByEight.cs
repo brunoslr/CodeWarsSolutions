@@ -78,7 +78,7 @@ class Solution
         return false;
     }
 
-    static void Main(String[] args)
+    /*static void Main(String[] args)
     {
         string[] res;
 
@@ -92,7 +92,7 @@ class Solution
             Console.WriteLine(res[res_i]);
         }
 
-    }
+    }*/
 }
 
 
