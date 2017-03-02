@@ -99,6 +99,7 @@
     <Compile Include="SixKyu\DeadAnts.cs" />
     <Compile Include="SixKyu\DigitalRoot.cs" />
     <Compile Include="SixKyu\DivisibleByThirteen.cs" />
+    <Compile Include="SixKyu\EqualSidesOfArray.cs" />
     <Compile Include="SixKyu\FinancingPlan.cs" />
     <Compile Include="SixKyu\FoldAnArray.cs" />
     <Compile Include="SixKyu\GeneticAlgorithmSeries_Selection.cs" />
