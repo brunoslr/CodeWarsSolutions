@@ -94,6 +94,7 @@
     <Compile Include="SixKyu\BingoCard.cs" />
     <Compile Include="SixKyu\BowlingPins.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
+    <Compile Include="SixKyu\ChessboardSeriesGame.cs" />
     <Compile Include="SixKyu\CountSmileys.cs" />
     <Compile Include="SixKyu\DayCount.cs" />
     <Compile Include="SixKyu\DeadAnts.cs" />
