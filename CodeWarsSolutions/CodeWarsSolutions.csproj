@@ -88,6 +88,7 @@
     <Compile Include="SevenKyu\LeetEncoder.cs" />
     <Compile Include="SevenKyu\LiningUpStudents.cs" />
     <Compile Include="SevenKyu\LinqBasics.cs" />
+    <Compile Include="SevenKyu\Mumbling.cs" />
     <Compile Include="SevenKyu\ReplaceEveryNth.cs" />
     <Compile Include="SevenKyu\SumofMultiples.cs" />
     <Compile Include="SevenKyu\TimeString.cs" />
