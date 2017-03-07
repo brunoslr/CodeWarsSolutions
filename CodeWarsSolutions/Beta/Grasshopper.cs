@@ -113,7 +113,7 @@ namespace CodeWarsSolutions.Beta
             return currentPos;
         }
 
-        public static void Main(string[] args)
+       /* public static void Main(string[] args)
         {
             Grasshopper g = new Grasshopper(10, 2);
             Console.WriteLine(g.WhereAmI());
@@ -134,7 +134,7 @@ namespace CodeWarsSolutions.Beta
             Console.WriteLine(g.WhereAmI());
 
             Console.ReadLine();
-        }
+        }*/
     }
 }
 

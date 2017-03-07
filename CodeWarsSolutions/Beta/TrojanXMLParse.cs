@@ -141,7 +141,7 @@ namespace CodeWarsSolutions.Beta
 
 
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             string xml =
                 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
@@ -180,7 +180,7 @@ namespace CodeWarsSolutions.Beta
                 "</root>";
 
             Console.WriteLine(CountCompromised(xml, "2"));
-        }
+        }*/
     }
 }
 
@@ -203,7 +203,7 @@ namespace CodeWarsSolutions.LinqSolution
 
 
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             string xml =
                 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
@@ -242,7 +242,7 @@ namespace CodeWarsSolutions.LinqSolution
                 "</root>";
 
             Console.WriteLine(CountCompromised(xml, "3"));
-        }
+        }*/
     }
 }
 

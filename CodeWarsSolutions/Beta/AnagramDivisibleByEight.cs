@@ -37,7 +37,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-class Solution
+class AnagramDivisiblebyEight
 {
 
     static string[] checkDivisibility(string[] arr)

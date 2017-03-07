@@ -31,10 +31,10 @@ namespace CodeWarsSolutions.Beta
             //return Regex.Replace(paragraph, @"(?<month>\d{2})/(?<day>\d{2})/(?<year>\d{4})", @"${day}/${month}/${year}"); ;
         }
 
-        public static void Main(string[] args)
+       /* public static void Main(string[] args)
         {
             Console.WriteLine(ChangeDateFormat("Last time it rained was on 07/08/2016 and today is 01/25/2017."));
             Console.ReadLine();
-        }
+        }*/
     }    
 }

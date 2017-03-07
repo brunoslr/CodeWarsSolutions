@@ -69,7 +69,7 @@
     <Compile Include="Beta\ChangeDateFormat.cs" />
     <Compile Include="Beta\OrderTheInnerStrings.cs" />
     <Compile Include="Beta\ScrabblePrototype.cs" />
-    <Compile Include="Beta\DebugFixTheError.cs" />
+    <Compile Include="Beta\Dispatcher.cs" />
     <Compile Include="Beta\Grasshopper.cs" />
     <Compile Include="Beta\LookAndSayHowWasIt.cs" />
     <Compile Include="Beta\PlayWithTwoStrings.cs" />

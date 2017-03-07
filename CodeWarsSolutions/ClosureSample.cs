@@ -11,12 +11,12 @@ namespace CodeWarsSolutions
 {
     class ClosureSample
     {
-        static void Main()
+       /* static void Main()
         {
             Action action = CreateAction();
             action();
             action();
-        }
+        }*/
 
         static Action CreateAction()
         {
