@@ -109,7 +109,7 @@ namespace CodeWarsSolutions.Beta
         public void Dispose()
         {
             Dispose(true);
-            GC.SuppressFinalize(this);
+        //    GC.SuppressFinalize(this);
         }
 
         protected virtual void Dispose(bool disposing)
@@ -123,10 +123,10 @@ namespace CodeWarsSolutions.Beta
                 disposed = true;
             }
         }
-        ~Worker()
+      /*  ~Worker()
         {
             Dispose(false);
-        }
+        } */
     }
 
     public class Dispatcher
@@ -172,12 +172,13 @@ namespace CodeWarsSolutions.Beta
 } 
 
 /*
+// Removing IDisposable as we have no unmanaged resources
 using System;
 using System.Collections.Generic;
 
 namespace CodeWarsSolutions.Beta
 {
-    public class Worker : IDisposable
+    public class Worker 
     {
         bool disposed = false;
 
@@ -198,11 +199,6 @@ namespace CodeWarsSolutions.Beta
                 throw new ObjectDisposedException(this.GetType().Name);
 
             this.tasks.Add(task);
-        }
-
-        public void Dispose()
-        {
-            this.tasks = null;
         }
 
     }
@@ -231,7 +227,6 @@ namespace CodeWarsSolutions.Beta
             if (!this.workers.TryGetValue(id, out w))
                 throw new ArgumentException();
             this.workers.Remove(id);
-            w.Dispose();
         }
 
         public static void Main(string[] args)
