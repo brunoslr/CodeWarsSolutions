@@ -33,7 +33,6 @@ public class Worker : IDisposable
     public void Dispose()
     {
         this.tasks = null;
-        GC.SuppressFinalize(this);
     }
 }
 
@@ -109,7 +108,6 @@ namespace CodeWarsSolutions.Beta
         public void Dispose()
         {
             Dispose(true);
-        //    GC.SuppressFinalize(this);
         }
 
         protected virtual void Dispose(bool disposing)
@@ -152,11 +150,12 @@ namespace CodeWarsSolutions.Beta
             Worker w = null;
             if (!this.workers.TryGetValue(id, out w))
                 throw new ArgumentException();
-            this.workers.Remove(id);
+            if (!this.workers.Remove(id))
+                Console.WriteLine($"Id nao removido - {id}");
             w.Dispose();
         }
 
-        public static void Main(string[] args)
+       /* public static void Main(string[] args)
         {
             var d = new Dispatcher();
             Random number = new Random();
@@ -168,6 +167,7 @@ namespace CodeWarsSolutions.Beta
             Console.WriteLine(string.Join(", ", d.AcquireWorker(1).Tasks));
             d.ReleaseWorker(1);
         }
+        */
     }
 } 
 
