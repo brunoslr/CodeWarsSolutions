@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsSolutions", "CodeWa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewCakeSolutions", "InterviewCakeSolutions\InterviewCakeSolutions.csproj", "{CBD44105-4261-45C8-8FC0-5D81A7ADAA3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsSolutions.Test", "CodeWarsSolutions.Test\CodeWarsSolutions.Test.csproj", "{CF766A84-2160-4587-86D0-8071DEB01F49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CBD44105-4261-45C8-8FC0-5D81A7ADAA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBD44105-4261-45C8-8FC0-5D81A7ADAA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD44105-4261-45C8-8FC0-5D81A7ADAA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF766A84-2160-4587-86D0-8071DEB01F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF766A84-2160-4587-86D0-8071DEB01F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF766A84-2160-4587-86D0-8071DEB01F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF766A84-2160-4587-86D0-8071DEB01F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
