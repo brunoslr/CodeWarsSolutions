@@ -208,28 +208,35 @@ namespace CodeWarsSolutions.Beta
         {
             return currentPos;
         }
-
-        public static void Main(string[] args)
+        
+public static void Main(string[] args)
         {
-            Grasshopper g = new Grasshopper(10, 2);
+            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+
+            sw.Start();
+            {
+                int n = 1000000;
+            Grasshopper g = new Grasshopper(n, n-3);
             Console.WriteLine(g.WhereAmI());
 
-            g.EatAndHopRight();
-            Console.WriteLine(g.WhereAmI());
+            
+                for (int i = 0; i < n/11; i++)
+                {
+                    g.EatAndHopLeft();
+                    g.EatAndHopLeft();
+                    g.EatAndHopLeft();
+                    g.EatAndHopLeft();
+                    g.EatAndHopLeft();
+                    //Console.WriteLine(g.WhereAmI());
+                }
 
-            g.EatAndHopLeft();
-            Console.WriteLine(g.WhereAmI());
-
-            g.EatAndHopRight();
-            Console.WriteLine(g.WhereAmI());
-
-            g.EatAndHopRight();
-            Console.WriteLine(g.WhereAmI());
-
-            g.EatAndHopRight();
-            Console.WriteLine(g.WhereAmI());
-
+                //code to test
+            }
+            sw.Stop();
+            Console.WriteLine(sw.ElapsedMilliseconds);
             Console.ReadLine();
+
+
         }
     }
 }

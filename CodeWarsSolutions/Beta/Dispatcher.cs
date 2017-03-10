@@ -1,4 +1,4 @@
-﻿/* // AC - 15m
+﻿/* // AC - 22m
 //There is a problem with the program below, after some time from its init. The system suddenly crashes
 
 //   A customer complained that the memory usage of the following component constantly increases although
