@@ -125,5 +125,13 @@ namespace CodeWarsSolutions.EightKyu
         }
     }
 
+    /* URL: https://www.codewars.com/kata/remove-exclamation-marks/train/csharp
+      Write function RemoveExclamationMarks which removes all exclamation marks from a given string. 
+    */
+    public static class RemoveExclamationMark
+    {
+        public static string RemoveExclamationMarks(string s) => s.Replace("!", "");
+    }
 
 }
+
