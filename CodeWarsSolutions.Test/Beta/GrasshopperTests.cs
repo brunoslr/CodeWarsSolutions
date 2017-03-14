@@ -1,6 +1,6 @@
 ﻿using CodeWarsSolutions.Beta;
 using NUnit.Framework;
-using System;
+using System.Diagnostics;
 
 namespace CodeWarsSolutions.Tests.Beta
 {
@@ -10,15 +10,16 @@ namespace CodeWarsSolutions.Tests.Beta
 
         Grasshopper sut;
       
-        [Test]
-        [Ignore("Not Fully implemented")]
-        public void GrasshopperTests_EatAndHopLeft1b_Dictionary()
+        [TestCase(5000)]
+        [TestCase(50000)]
+        [TestCase(500000)]
+        [TestCase(5000000)]
+        public void GrasshopperTests_EatAndHopLeft1b_Dictionary(int input)
         {
-            int n = 10000000;
+            int n = input;
+            Stopwatch timer = new System.Diagnostics.Stopwatch();
+            timer.Start();
             sut = new Grasshopper(n, n - 3);
-            Console.WriteLine(sut.WhereAmI());
-
-
             for (int i = 0; i < n / 11; i++)
             {
                 sut.EatAndHopLeft();
@@ -26,9 +27,10 @@ namespace CodeWarsSolutions.Tests.Beta
                 sut.EatAndHopLeft();
                 sut.EatAndHopLeft();
                 sut.EatAndHopLeft();
-                //Console.WriteLine(g.WhereAmI());
             }
-            Assert.AreNotEqual(null, sut.WhereAmI());
+            timer.Stop();
+            bool ExecutionTimeLessThanFiveSeconds = (timer.ElapsedMilliseconds < 5000);
+            Assert.IsTrue(ExecutionTimeLessThanFiveSeconds, "Should take less than five seconds");
             
         }
     }
