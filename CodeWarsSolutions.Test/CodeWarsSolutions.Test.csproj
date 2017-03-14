@@ -52,6 +52,7 @@
     <Compile Include="Beta\GrasshopperTests.cs" />
     <Compile Include="EightKyu\QuickOnesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
