@@ -87,6 +87,7 @@
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\BinaryOperationOne.cs" />
+    <Compile Include="SevenKyu\CartesianNeighbors.cs" />
     <Compile Include="SevenKyu\ComplementaryDNA.cs" />
     <Compile Include="SevenKyu\CubeChecker.cs" />
     <Compile Include="SevenKyu\DescendingOrderKata.cs" />
