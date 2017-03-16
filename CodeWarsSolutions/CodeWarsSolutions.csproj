@@ -97,6 +97,7 @@
     <Compile Include="SevenKyu\Mumbling.cs" />
     <Compile Include="SevenKyu\ReplaceEveryNth.cs" />
     <Compile Include="SevenKyu\SequenceSum.cs" />
+    <Compile Include="SevenKyu\ShortestWord.cs" />
     <Compile Include="SevenKyu\StringMiddleCharacter.cs" />
     <Compile Include="SevenKyu\SumofMultiples.cs" />
     <Compile Include="SevenKyu\TimeString.cs" />

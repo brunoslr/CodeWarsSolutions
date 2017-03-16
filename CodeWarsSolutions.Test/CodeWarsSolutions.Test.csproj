@@ -50,10 +50,11 @@
   <ItemGroup>
     <Compile Include="Beta\DispatcherTests.cs" />
     <Compile Include="Beta\GrasshopperTests.cs" />
-    <Compile Include="EightKyu\QuickOnesTest.cs" />
+    <Compile Include="EightKyu\QuickOnesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\CartesianNeighborsTest.cs" />
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
+    <Compile Include="SevenKyu\ShortestWordTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
