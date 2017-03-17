@@ -96,6 +96,7 @@
     <Compile Include="SevenKyu\LinqBasics.cs" />
     <Compile Include="SevenKyu\Mumbling.cs" />
     <Compile Include="SevenKyu\ReplaceEveryNth.cs" />
+    <Compile Include="SevenKyu\ReverseFirst.cs" />
     <Compile Include="SevenKyu\SequenceSum.cs" />
     <Compile Include="SevenKyu\ShortestWord.cs" />
     <Compile Include="SevenKyu\StringMiddleCharacter.cs" />

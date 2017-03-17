@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\CartesianNeighborsTest.cs" />
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
+    <Compile Include="SevenKyu\ReverseFirstTests.cs" />
     <Compile Include="SevenKyu\ShortestWordTests.cs" />
   </ItemGroup>
   <ItemGroup>

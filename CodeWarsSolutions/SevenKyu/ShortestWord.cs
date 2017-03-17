@@ -16,7 +16,7 @@ namespace CodeWarsSolutions.SevenKyu
             return s.Split(' ').Aggregate(Int32.MaxValue, (cur, next) => (cur < next.Length) ? cur : next.Length);
         }
 
-        internal int FindShortForTest(string s)
+        internal static int FindShortForTest(string s)
         {
            return FindShort(s);
         }
