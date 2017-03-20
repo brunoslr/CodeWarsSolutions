@@ -56,6 +56,7 @@
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
     <Compile Include="SevenKyu\ShortestWordTests.cs" />
+    <Compile Include="SixKyu\LongestConsecutivesTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
