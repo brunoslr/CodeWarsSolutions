@@ -71,6 +71,7 @@
     <Compile Include="Beta\BrickPyramid.cs" />
     <Compile Include="Beta\CaesarCypher.cs" />
     <Compile Include="Beta\ChangeDateFormat.cs" />
+    <Compile Include="Beta\DoublyNotLess.cs" />
     <Compile Include="Beta\OrderTheInnerStrings.cs" />
     <Compile Include="Beta\ScrabblePrototype.cs" />
     <Compile Include="Beta\Dispatcher.cs" />

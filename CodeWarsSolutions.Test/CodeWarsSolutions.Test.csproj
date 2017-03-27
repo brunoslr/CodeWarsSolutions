@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Beta\DispatcherTests.cs" />
+    <Compile Include="Beta\DoublyNotLessTests.cs" />
     <Compile Include="Beta\GrasshopperTests.cs" />
     <Compile Include="EightKyu\QuickOnesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
