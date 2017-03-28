@@ -60,6 +60,7 @@
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
     <Compile Include="SevenKyu\ShortestWordTests.cs" />
     <Compile Include="SevenKyu\ShuffledArrayKataTests.cs" />
+    <Compile Include="SevenKyu\SimpleExtensionMethodsTests.cs" />
     <Compile Include="SixKyu\LongestConsecutivesTests.cs" />
   </ItemGroup>
   <ItemGroup>
