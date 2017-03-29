@@ -35,6 +35,17 @@ namespace CodeWarsSolutions.Tests.Beta
             Assert.That(sut.Workers.Count(), Is.EqualTo(0));
         }
 
+        [Test]
+        public void RunDispatcherMain()
+        {
+
+            Dispatcher.DispatcherMain(new string[] {"","" });
+            
+
+            Assert.True(true);
+        }
+
+
         [OneTimeTearDown]
         public void TestTearDown()
         {

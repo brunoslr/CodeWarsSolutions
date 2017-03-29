@@ -82,10 +82,12 @@ using System.Collections.Generic;
 
 namespace CodeWarsSolutions.Beta
 {
+
+    using System;
+    using System.Collections.Generic;
+
     public class Worker : IDisposable
     {
-        bool disposed = false;
-
         private List<string> tasks = new List<string>();
 
         public int Id { get; private set; }
@@ -107,24 +109,8 @@ namespace CodeWarsSolutions.Beta
 
         public void Dispose()
         {
-            Dispose(true);
+            this.tasks = null;
         }
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!disposed)
-            {
-                if (disposing)
-                {
-                    this.tasks = null;
-                }             
-                disposed = true;
-            }
-        }
-      /*  ~Worker()
-        {
-            Dispose(false);
-        } */
     }
 
     public class Dispatcher
@@ -155,10 +141,10 @@ namespace CodeWarsSolutions.Beta
             w.Dispose();
         }
 
-       /* public static void Main(string[] args)
+        public static void DispatcherMain(string[] args)
         {
             var d = new Dispatcher();
-            Random number = new Random();
+
             d.AcquireWorker(1).PerformTask("Task11");
             d.AcquireWorker(2).PerformTask("Task21");
             Console.WriteLine(string.Join(", ", d.AcquireWorker(2).Tasks));
@@ -167,9 +153,9 @@ namespace CodeWarsSolutions.Beta
             Console.WriteLine(string.Join(", ", d.AcquireWorker(1).Tasks));
             d.ReleaseWorker(1);
         }
-        */
     }
-} 
+}
+
 
 /*
 // Removing IDisposable as we have no unmanaged resources
