@@ -79,6 +79,7 @@
     <Compile Include="Beta\LookAndSayHowWasIt.cs" />
     <Compile Include="Beta\PlayWithTwoStrings.cs" />
     <Compile Include="Beta\SimpleClassAtRuntime.cs" />
+    <Compile Include="Beta\SwitchToDictionary.cs" />
     <Compile Include="Beta\TrojanXMLParse.cs" />
     <Compile Include="ClosureSample.cs" />
     <Compile Include="EightKyu\QuickOnes.cs" />
@@ -109,6 +110,7 @@
     <Compile Include="SevenKyu\TimeString.cs" />
     <Compile Include="SixKyu\BingoCard.cs" />
     <Compile Include="SixKyu\BowlingPins.cs" />
+    <Compile Include="SixKyu\BuildTower.cs" />
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
     <Compile Include="SixKyu\CharacterRepetition.cs" />
     <Compile Include="SixKyu\ChessboardSeriesGame.cs" />

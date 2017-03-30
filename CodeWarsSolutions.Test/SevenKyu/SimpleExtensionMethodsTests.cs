@@ -2,7 +2,7 @@
 using NUnit.Framework;
 
 [TestFixture]
-public class Tests
+public class SimpleExtensionMethodsTests
 {
     [Test]
     public void ExampleTests()
