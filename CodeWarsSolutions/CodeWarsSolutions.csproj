@@ -107,6 +107,7 @@
     <Compile Include="SevenKyu\ShuffledArrayKata.cs" />
     <Compile Include="SevenKyu\SimpleExtensionMethods.cs" />
     <Compile Include="SevenKyu\Smooth.cs" />
+    <Compile Include="SevenKyu\SortByValueIndex.cs" />
     <Compile Include="SevenKyu\StringMiddleCharacter.cs" />
     <Compile Include="SevenKyu\SumofMultiples.cs" />
     <Compile Include="SevenKyu\TimeString.cs" />

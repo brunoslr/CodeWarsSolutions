@@ -64,6 +64,7 @@
     <Compile Include="SevenKyu\ShuffledArrayKataTests.cs" />
     <Compile Include="SevenKyu\SimpleExtensionMethodsTests.cs" />
     <Compile Include="SevenKyu\SmoothTests.cs" />
+    <Compile Include="SevenKyu\SortByValueIndexTests.cs" />
     <Compile Include="SixKyu\BuildTowerTests.cs" />
     <Compile Include="SixKyu\LongestConsecutivesTests.cs" />
   </ItemGroup>
