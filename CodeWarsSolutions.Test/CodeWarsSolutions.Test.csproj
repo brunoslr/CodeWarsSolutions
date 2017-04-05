@@ -55,6 +55,7 @@
     <Compile Include="EightKyu\QuickOnesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\AbacabaPuzzleTests.cs" />
+    <Compile Include="SevenKyu\AlternateCaseKataTests.cs" />
     <Compile Include="SevenKyu\AscOrderTests.cs" />
     <Compile Include="SevenKyu\CartesianNeighborsTest.cs" />
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
