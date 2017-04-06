@@ -133,5 +133,16 @@ namespace CodeWarsSolutions.EightKyu
         public static string RemoveExclamationMarks(string s) => s.Replace("!", "");
     }
 
+    /* URL: https://www.codewars.com/kata/remove-string-spaces/train/csharp
+      Simple, remove the spaces from the string, then return the resultant string.
+     */
+    public class SpacesRemover
+    {
+        public static string NoSpace(string input)
+        {
+            return input.Replace(" ", "");
+        }
+    }
+
 }
 
