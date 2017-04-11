@@ -60,6 +60,7 @@
     <Compile Include="SevenKyu\CartesianNeighborsTest.cs" />
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
     <Compile Include="SevenKyu\IsSquareTests.cs" />
+    <Compile Include="SevenKyu\MagicWellTests.cs" />
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
     <Compile Include="SevenKyu\ShortestWordTests.cs" />
     <Compile Include="SevenKyu\ShuffledArrayKataTests.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="SevenKyu\TimeAndSpaceTests.cs" />
     <Compile Include="SixKyu\BuildTowerTests.cs" />
     <Compile Include="SixKyu\LongestConsecutivesTests.cs" />
+    <Compile Include="SixKyu\ManageRobotFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
