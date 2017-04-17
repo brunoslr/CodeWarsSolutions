@@ -102,6 +102,7 @@
     <Compile Include="SevenKyu\LinqBasics.cs" />
     <Compile Include="SevenKyu\MagicWell.cs" />
     <Compile Include="SevenKyu\Mumbling.cs" />
+    <Compile Include="SevenKyu\PhoneCallKata.cs" />
     <Compile Include="SevenKyu\ReplaceEveryNth.cs" />
     <Compile Include="SevenKyu\ReverseFirst.cs" />
     <Compile Include="SevenKyu\SelectiveSortByHeight.cs" />

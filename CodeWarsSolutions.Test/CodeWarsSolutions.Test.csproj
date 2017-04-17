@@ -61,6 +61,7 @@
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
     <Compile Include="SevenKyu\IsSquareTests.cs" />
     <Compile Include="SevenKyu\MagicWellTests.cs" />
+    <Compile Include="SevenKyu\PhoneCallKataTests.cs" />
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
     <Compile Include="SevenKyu\SelectiveSortByHeightTests.cs" />
     <Compile Include="SevenKyu\ShortestWordTests.cs" />
