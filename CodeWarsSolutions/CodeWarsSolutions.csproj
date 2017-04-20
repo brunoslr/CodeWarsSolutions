@@ -79,6 +79,7 @@
     <Compile Include="Beta\LookAndSayHowWasIt.cs" />
     <Compile Include="Beta\PlayWithTwoStrings.cs" />
     <Compile Include="Beta\SimpleClassAtRuntime.cs" />
+    <Compile Include="Beta\SingletonAdamAndEve.cs" />
     <Compile Include="Beta\SwitchToDictionary.cs" />
     <Compile Include="Beta\TrojanXMLParse.cs" />
     <Compile Include="ClosureSample.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="SixKyu\MovesSquaredStringsIV.cs" />
     <Compile Include="SixKyu\MultiplesOfFiveandThree.cs" />
     <Compile Include="SixKyu\NotSoRandomKata.cs" />
+    <Compile Include="SixKyu\PatternCraftStrategy.cs" />
     <Compile Include="SixKyu\PressButtonKata.cs" />
     <Compile Include="SixKyu\ReduceFractions.cs" />
     <Compile Include="SixKyu\ReducingByRules.cs" />
