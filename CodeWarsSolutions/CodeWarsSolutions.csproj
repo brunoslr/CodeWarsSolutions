@@ -103,6 +103,7 @@
     <Compile Include="SevenKyu\LinqBasics.cs" />
     <Compile Include="SevenKyu\MagicWell.cs" />
     <Compile Include="SevenKyu\Mumbling.cs" />
+    <Compile Include="SevenKyu\PatternCraftVisitor.cs" />
     <Compile Include="SevenKyu\PhoneCallKata.cs" />
     <Compile Include="SevenKyu\ReplaceEveryNth.cs" />
     <Compile Include="SevenKyu\ReverseFirst.cs" />
@@ -140,6 +141,7 @@
     <Compile Include="SixKyu\MovesSquaredStringsIV.cs" />
     <Compile Include="SixKyu\MultiplesOfFiveandThree.cs" />
     <Compile Include="SixKyu\NotSoRandomKata.cs" />
+    <Compile Include="SixKyu\PatternCraftState.cs" />
     <Compile Include="SixKyu\PatternCraftStrategy.cs" />
     <Compile Include="SixKyu\PressButtonKata.cs" />
     <Compile Include="SixKyu\ReduceFractions.cs" />

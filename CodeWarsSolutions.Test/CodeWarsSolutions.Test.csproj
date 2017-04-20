@@ -62,6 +62,7 @@
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
     <Compile Include="SevenKyu\IsSquareTests.cs" />
     <Compile Include="SevenKyu\MagicWellTests.cs" />
+    <Compile Include="SevenKyu\PatternCraftVisitorTests.cs" />
     <Compile Include="SevenKyu\PhoneCallKataTests.cs" />
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
     <Compile Include="SevenKyu\SelectiveSortByHeightTests.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="SixKyu\ManageRobotFactoryTests.cs" />
     <Compile Include="SixKyu\MexicanWaveTests.cs" />
     <Compile Include="SixKyu\NotSoRandomKataTests.cs" />
+    <Compile Include="SixKyu\PatternCraftStateTests.cs" />
     <Compile Include="SixKyu\PatternCraftStrategyTests.cs" />
     <Compile Include="SixKyu\PressButtonKataTests.cs" />
     <Compile Include="SixKyu\SplitStringKataTests.cs" />
