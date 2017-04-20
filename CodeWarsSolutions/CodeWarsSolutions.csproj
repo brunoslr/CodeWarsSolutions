@@ -139,6 +139,7 @@
     <Compile Include="SixKyu\MovesSquaredStringsIV.cs" />
     <Compile Include="SixKyu\MultiplesOfFiveandThree.cs" />
     <Compile Include="SixKyu\NotSoRandomKata.cs" />
+    <Compile Include="SixKyu\PressButtonKata.cs" />
     <Compile Include="SixKyu\ReduceFractions.cs" />
     <Compile Include="SixKyu\ReducingByRules.cs" />
     <Compile Include="SixKyu\ReverseWordsInAString.cs" />

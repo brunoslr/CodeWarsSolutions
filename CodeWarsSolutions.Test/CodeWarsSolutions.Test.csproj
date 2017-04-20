@@ -75,6 +75,7 @@
     <Compile Include="SixKyu\ManageRobotFactoryTests.cs" />
     <Compile Include="SixKyu\MexicanWaveTests.cs" />
     <Compile Include="SixKyu\NotSoRandomKataTests.cs" />
+    <Compile Include="SixKyu\PressButtonKataTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
