@@ -143,5 +143,4 @@ namespace CodeWarsSolutions.SixKyu
                 unit.Minerals += 5;
         }
     }
-
 }

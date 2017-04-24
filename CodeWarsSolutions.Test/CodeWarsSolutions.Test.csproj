@@ -84,6 +84,7 @@
     <Compile Include="SixKyu\PatternCraftStrategyTests.cs" />
     <Compile Include="SixKyu\PressButtonKataTests.cs" />
     <Compile Include="SixKyu\SplitStringKataTests.cs" />
+    <Compile Include="SixKyu\StrategyPatternBirdBehaviorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
