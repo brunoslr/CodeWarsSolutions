@@ -142,6 +142,7 @@
     <Compile Include="SixKyu\MovesSquaredStringsIV.cs" />
     <Compile Include="SixKyu\MultiplesOfFiveandThree.cs" />
     <Compile Include="SixKyu\NotSoRandomKata.cs" />
+    <Compile Include="SixKyu\PatternCraftCommand.cs" />
     <Compile Include="SixKyu\PatternCraftDecorator.cs" />
     <Compile Include="SixKyu\PatternCraftState.cs" />
     <Compile Include="SixKyu\PatternCraftStrategy.cs" />

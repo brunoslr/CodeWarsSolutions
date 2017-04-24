@@ -78,6 +78,7 @@
     <Compile Include="SixKyu\ManageRobotFactoryTests.cs" />
     <Compile Include="SixKyu\MexicanWaveTests.cs" />
     <Compile Include="SixKyu\NotSoRandomKataTests.cs" />
+    <Compile Include="SixKyu\PatternCraftCommandTests.cs" />
     <Compile Include="SixKyu\PatternCraftDecoratorTests.cs" />
     <Compile Include="SixKyu\PatternCraftStateTests.cs" />
     <Compile Include="SixKyu\PatternCraftStrategyTests.cs" />
