@@ -23,7 +23,7 @@ namespace CodeWarsSolutions.Test.SevenKyu
         [TestCase(new int[] { 1, -3, -5, 7, 2 }, new int[] { -5, -3, 2, 7 })]
         [TestCase(new int[] { 2, -1, 2, 2, -1 }, new int[] { -1, -1, 2, 2 })]
         [TestCase(new int[] { -3, -3 }, new int[] { -3 })]
-        public void BasicTests(int[] input, int[] expected)
+        public void ShuffledArrayBasicTests(int[] input, int[] expected)
         {
             Assert.AreEqual(expected, sut.ShuffledArray(input));
         }

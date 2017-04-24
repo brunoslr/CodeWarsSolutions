@@ -17,7 +17,7 @@ namespace CodeWarsSolutions.Test.SevenKyu
         [TestCase(new int[] { }, new int[] {})]
         [TestCase(new int[] { 111 }, new int[] { 111 })]
         [TestCase(new int[] { 324, 54, 12, 3, 4, 56, 23, 12, 5, 23 }, new int[] { 23, 54, 12, 3, 4, 56, 23, 12, 5, 324 })]
-        public void ReverseFirstBasicTests(int[] expected, int[] input)
+        public void ReverseFirstKataBasicTests(int[] expected, int[] input)
         {
             Assert.AreEqual(expected, sut.FirstReverseTry(input));
         }
