@@ -71,6 +71,7 @@
     <Compile Include="SevenKyu\ShortestWordTests.cs" />
     <Compile Include="SevenKyu\ShuffledArrayKataTests.cs" />
     <Compile Include="SevenKyu\SimpleExtensionMethodsTests.cs" />
+    <Compile Include="SevenKyu\SimpleFunRegexHappyCharTests.cs" />
     <Compile Include="SevenKyu\SmoothTests.cs" />
     <Compile Include="SevenKyu\SortByValueIndexTests.cs" />
     <Compile Include="SevenKyu\TimeAndSpaceTests.cs" />
