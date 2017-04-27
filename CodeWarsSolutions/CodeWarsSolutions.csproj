@@ -127,6 +127,7 @@
     <Compile Include="SixKyu\CalculateStringRotation.cs" />
     <Compile Include="SixKyu\CharacterRepetition.cs" />
     <Compile Include="SixKyu\ChessboardSeriesGame.cs" />
+    <Compile Include="SixKyu\FindFileInDirectories.cs" />
     <Compile Include="SixKyu\LongestConsecutives.cs" />
     <Compile Include="SixKyu\CountSmileys.cs" />
     <Compile Include="SixKyu\DayCount.cs" />
