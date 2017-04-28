@@ -157,6 +157,7 @@
     <Compile Include="SixKyu\SqrtIntegerApproximation.cs" />
     <Compile Include="SixKyu\StepInPrimes .cs" />
     <Compile Include="SixKyu\StrategyPatternBirdBehavior.cs" />
+    <Compile Include="SixKyu\SumAndProduct.cs" />
     <Compile Include="SixKyu\TripleDouble.cs" />
     <Compile Include="SixKyu\StrategyPatternRefactorSwitchStatement.cs" />
     <Compile Include="SixKyu\VisitorPatternRefactorSwitchStatement.cs" />
