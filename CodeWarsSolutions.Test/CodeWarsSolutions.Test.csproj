@@ -75,6 +75,7 @@
     <Compile Include="SevenKyu\SmoothTests.cs" />
     <Compile Include="SevenKyu\SortByValueIndexTests.cs" />
     <Compile Include="SevenKyu\TimeAndSpaceTests.cs" />
+    <Compile Include="SixKyu\AnimalsSortTests.cs" />
     <Compile Include="SixKyu\BuildTowerTests.cs" />
     <Compile Include="SixKyu\FindFilesInDirectoriesTests.cs" />
     <Compile Include="SixKyu\LongestConsecutivesTests.cs" />

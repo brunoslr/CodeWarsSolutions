@@ -121,6 +121,7 @@
     <Compile Include="SevenKyu\SumofMultiples.cs" />
     <Compile Include="SevenKyu\TimeAndSpace.cs" />
     <Compile Include="SevenKyu\TimeString.cs" />
+    <Compile Include="SixKyu\AnimalsSort.cs" />
     <Compile Include="SixKyu\BingoCard.cs" />
     <Compile Include="SixKyu\BowlingPins.cs" />
     <Compile Include="SixKyu\BuildTower.cs" />
