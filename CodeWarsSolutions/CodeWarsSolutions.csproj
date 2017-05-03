@@ -114,6 +114,7 @@
     <Compile Include="SevenKyu\ShortestWord.cs" />
     <Compile Include="SevenKyu\ShuffledArrayKata.cs" />
     <Compile Include="SevenKyu\SimpleExtensionMethods.cs" />
+    <Compile Include="SevenKyu\SimpleFunRankOfElement.cs" />
     <Compile Include="SevenKyu\SimpleFunRegexHappyChar.cs" />
     <Compile Include="SevenKyu\Smooth.cs" />
     <Compile Include="SevenKyu\SortByValueIndex.cs" />
