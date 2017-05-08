@@ -17,8 +17,11 @@ namespace CodeWarsSolutions.Test.Beta
             Assert.AreEqual(adam, anotherAdam);
         }
 
-        // Implement all the tests below one by one!
-
+        [Test]
+        public void Eve_can_only_be_create_of_a_rib_of_adam()
+        {
+            Assert.Throws<ArgumentNullException>(() => Eve.GetInstance(null));
+        }
 
         public void Adam_has_no_public_constructor()
         {
@@ -109,6 +112,5 @@ namespace CodeWarsSolutions.Test.Beta
             Assert.Throws<ArgumentNullException>(() => new Female("Eve", null, null));
             Assert.Throws<ArgumentNullException>(() => new Male("Adam", null, null));
         }
-
     }
 }

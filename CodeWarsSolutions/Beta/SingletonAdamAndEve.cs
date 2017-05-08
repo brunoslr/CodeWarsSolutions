@@ -12,12 +12,8 @@ namespace CodeWarsSolutions.Beta
         private Adam() : base("Adam") { }
 
         public static Adam GetInstance()
-        {
-            if (instance == null)
-            {
-                instance = new Adam();
-            }
-            return instance;
+        {   
+            return instance ?? (instance = new Adam());
         }
     }
 
@@ -27,12 +23,8 @@ namespace CodeWarsSolutions.Beta
         private Eve():base("Eve") { }
         public static Eve GetInstance(Male adam)
         {
-            if (instance == null)
-            {
-                instance = new Eve();
-                instance.Father = adam;
-            }
-            return instance;
+            if(adam == null) throw new ArgumentNullException();
+            return instance?? (instance = new Eve());
         }
     }
 
