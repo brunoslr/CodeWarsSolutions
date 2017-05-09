@@ -90,6 +90,7 @@
     <Compile Include="SixKyu\PatternCraftStateTests.cs" />
     <Compile Include="SixKyu\PatternCraftStrategyTests.cs" />
     <Compile Include="SixKyu\PressButtonKataTests.cs" />
+    <Compile Include="SixKyu\SortingTheRabbitHoleTests.cs" />
     <Compile Include="SixKyu\SplitStringKataTests.cs" />
     <Compile Include="SixKyu\StrategyPatternBirdBehaviorTests.cs" />
     <Compile Include="SixKyu\SumAndProductTests.cs" />
