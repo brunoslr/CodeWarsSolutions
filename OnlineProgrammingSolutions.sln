@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewCakeSolutions", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsSolutions.Test", "CodeWarsSolutions.Test\CodeWarsSolutions.Test.csproj", "{CF766A84-2160-4587-86D0-8071DEB01F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions", "HackerRankSolutions\HackerRankSolutions.csproj", "{012EE4E0-EF64-4FFE-81D1-AF4ACBA04C52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CF766A84-2160-4587-86D0-8071DEB01F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF766A84-2160-4587-86D0-8071DEB01F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF766A84-2160-4587-86D0-8071DEB01F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012EE4E0-EF64-4FFE-81D1-AF4ACBA04C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012EE4E0-EF64-4FFE-81D1-AF4ACBA04C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012EE4E0-EF64-4FFE-81D1-AF4ACBA04C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012EE4E0-EF64-4FFE-81D1-AF4ACBA04C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
