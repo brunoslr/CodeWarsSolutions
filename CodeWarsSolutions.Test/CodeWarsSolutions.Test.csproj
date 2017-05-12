@@ -91,6 +91,7 @@
     <Compile Include="SixKyu\PatternCraftStateTests.cs" />
     <Compile Include="SixKyu\PatternCraftStrategyTests.cs" />
     <Compile Include="SixKyu\PressButtonKataTests.cs" />
+    <Compile Include="SixKyu\PrimesWithoutLoopTests.cs" />
     <Compile Include="SixKyu\SlotMachineTests.cs" />
     <Compile Include="SixKyu\SortingTheRabbitHoleTests.cs" />
     <Compile Include="SixKyu\SplitStringKataTests.cs" />
