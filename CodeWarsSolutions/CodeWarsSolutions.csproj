@@ -91,6 +91,7 @@
     <Compile Include="SevenKyu\CouponCode.cs" />
     <Compile Include="SevenKyu\CouponCodeTests.cs" />
     <Compile Include="SevenKyu\DecimalDigits.cs" />
+    <Compile Include="SevenKyu\WordGuesser.cs" />
     <Compile Include="SixKyu\PrimesWithoutLoop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\AbacabaPuzzle.cs" />
@@ -188,6 +189,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
