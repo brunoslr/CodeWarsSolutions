@@ -55,7 +55,18 @@ namespace HackerRankSolutions.AI.BotBuilding
         static void nextMove(int n, int r, int c, String[] grid)
         {
             var mario = new int[2] { r, c };
-            var peach = new int[2];
+
+            var peach = GetPositionInGraph(n, grid);
+
+            if (!Enumerable.SequenceEqual(mario, peach))
+            {
+                MoveMarioTowardsPeach(mario, peach);
+            }
+        }
+
+        private static int[] GetPositionInGraph(int n, string[] grid)
+        {
+            int[] peach = new int[2];
 
             for (int i = 0; i < n; i++)
             {
@@ -65,30 +76,34 @@ namespace HackerRankSolutions.AI.BotBuilding
                     {
                         peach[0] = i;
                         peach[1] = j;
+
+                        return peach;
                     }
                 }
             }
+            return peach;
+        }
 
-            if (!Enumerable.SequenceEqual(mario, peach))
+        private static void MoveMarioTowardsPeach(int[] mario, int[] peach)
+        {
+            if (mario[1] > peach[1])
             {
-                if (mario[1] > peach[1])
-                {
-                    Console.WriteLine("LEFT");
-                }
-                else if (mario[1] < peach[1])
-                {
-                    Console.WriteLine("RIGHT");
-                }
-                else if (mario[0] > peach[0])
-                {
-                    Console.WriteLine("UP");
-                }
-                else if (mario[0] < peach[0])
-                {
-                    Console.WriteLine("DOWN");
-                }
+                Console.WriteLine("LEFT");
+            }
+            else if (mario[1] < peach[1])
+            {
+                Console.WriteLine("RIGHT");
+            }
+            else if (mario[0] > peach[0])
+            {
+                Console.WriteLine("UP");
+            }
+            else if (mario[0] < peach[0])
+            {
+                Console.WriteLine("DOWN");
             }
         }
+
         static void Main(String[] args)
         {
             int n;
