@@ -91,6 +91,7 @@
     <Compile Include="SevenKyu\CouponCode.cs" />
     <Compile Include="SevenKyu\CouponCodeTests.cs" />
     <Compile Include="SevenKyu\DecimalDigits.cs" />
+    <Compile Include="SevenKyu\ThueMorse.cs" />
     <Compile Include="SevenKyu\WordGuesser.cs" />
     <Compile Include="SixKyu\PrimesWithoutLoop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
