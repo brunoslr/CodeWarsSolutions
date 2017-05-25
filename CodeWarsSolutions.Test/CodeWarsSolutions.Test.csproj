@@ -65,6 +65,7 @@
     <Compile Include="SevenKyu\FibonacciIntroToDynamicTests.cs" />
     <Compile Include="SevenKyu\HandsUpTests.cs" />
     <Compile Include="SevenKyu\IsSquareTests.cs" />
+    <Compile Include="SevenKyu\KillKthBitTests.cs" />
     <Compile Include="SevenKyu\MagicWellTests.cs" />
     <Compile Include="SevenKyu\PatternCraftAdapterTests.cs" />
     <Compile Include="SevenKyu\PatternCraftVisitorTests.cs" />
