@@ -93,6 +93,7 @@
     <Compile Include="SevenKyu\DecimalDigits.cs" />
     <Compile Include="SevenKyu\IsInfiniteProcess.cs" />
     <Compile Include="SevenKyu\KillKthBit.cs" />
+    <Compile Include="SevenKyu\KnapsackLight.cs" />
     <Compile Include="SevenKyu\MaxDiff.cs" />
     <Compile Include="SevenKyu\SheepCount.cs" />
     <Compile Include="SevenKyu\ThueMorse.cs" />
