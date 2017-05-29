@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CodeWarsSolutions.SevenKyu;
+using NUnit.Framework;
 
-namespace CodeWarsSolutions.SevenKyu
+namespace CodeWarsSolutions.Tests.SevenKyu
 {
-    class CouponCodeTests
+    [TestFixture]
+    public class CouponCodeTests
     {
+     [Test]
+        public static void ValidCoupon()
+        {
+            Assert.AreEqual(true, CouponCode.CheckCoupon("123", "123", "September 5, 2014", "October 1, 2014"));
+        }
+
+        [Test]
+        public static void InvalidCoupon()
+        {
+            Assert.AreEqual(false, CouponCode.CheckCoupon("123a", "123", "September 5, 2014", "October 1, 2014"));
+        }
     }
 }

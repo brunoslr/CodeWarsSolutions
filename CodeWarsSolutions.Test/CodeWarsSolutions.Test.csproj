@@ -61,6 +61,7 @@
     <Compile Include="SevenKyu\CartesianNeighborsTest.cs" />
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
     <Compile Include="SevenKyu\CouponCodeTests.cs" />
+    <Compile Include="SevenKyu\CypherEasyTests.cs" />
     <Compile Include="SevenKyu\DecimalDigitsTests.cs" />
     <Compile Include="SevenKyu\FibonacciIntroToDynamicTests.cs" />
     <Compile Include="SevenKyu\HandsUpTests.cs" />
