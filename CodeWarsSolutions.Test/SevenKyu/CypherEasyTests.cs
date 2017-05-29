@@ -10,13 +10,13 @@ namespace CodeWarsSolutions.Test.SevenKyu
         [Test]
         public void BasicTest()
         {
-            Assert.AreEqual("Gug hgs g cgt", CipherEasy.Encode("Ala has a cat"));
-            Assert.AreEqual("GBCE", CipherEasy.Encode("ABCD"));
-            Assert.AreEqual("Gug hgs g cgt", CipherEasy.Encode("Ala has a cat"));
-            Assert.AreEqual("agedyropulik", CipherEasy.Encode("gaderypoluki"));
-            Assert.AreEqual("Ala has a cat", CipherEasy.Decode("Gug hgs g cgt"));
-            Assert.AreEqual("gaderypoluki", CipherEasy.Decode("agedyropulik"));
-            Assert.AreEqual("ABCD", CipherEasy.Decode("GBCE"));
+            Assert.AreEqual("Gug hgs g cgt", CypherEasy.Encode("Ala has a cat"));
+            Assert.AreEqual("GBCE", CypherEasy.Encode("ABCD"));
+            Assert.AreEqual("Gug hgs g cgt", CypherEasy.Encode("Ala has a cat"));
+            Assert.AreEqual("agedyropulik", CypherEasy.Encode("gaderypoluki"));
+            Assert.AreEqual("Ala has a cat", CypherEasy.Decode("Gug hgs g cgt"));
+            Assert.AreEqual("gaderypoluki", CypherEasy.Decode("agedyropulik"));
+            Assert.AreEqual("ABCD", CypherEasy.Decode("GBCE"));
         }
     }
 }

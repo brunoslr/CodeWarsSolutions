@@ -29,7 +29,7 @@ using System.Linq;
 namespace CodeWarsSolutions.SevenKyu
 {
 
-    public class CipherEasy
+    public class CypherEasy
     {
         private static Dictionary<char, char> myDictionary = new Dictionary<char, char>()
         { {'G','A'},{'A','G'},{'g','a'},{'a','g'},
