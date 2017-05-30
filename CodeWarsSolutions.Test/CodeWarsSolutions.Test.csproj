@@ -58,6 +58,7 @@
     <Compile Include="SevenKyu\AbacabaPuzzleTests.cs" />
     <Compile Include="SevenKyu\AlternateCaseKataTests.cs" />
     <Compile Include="SevenKyu\AscOrderTests.cs" />
+    <Compile Include="SevenKyu\BitwiseEvenCheckTests.cs" />
     <Compile Include="SevenKyu\CartesianNeighborsTest.cs" />
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
     <Compile Include="SevenKyu\CouponCodeTests.cs" />

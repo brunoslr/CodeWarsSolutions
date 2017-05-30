@@ -88,6 +88,7 @@
     <Compile Include="FiveKyu\RegexWithBranching.cs" />
     <Compile Include="FiveKyu\WeirdPrimeGenerator.cs" />
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
+    <Compile Include="SevenKyu\BitwiseEvenCheck.cs" />
     <Compile Include="SevenKyu\CypherEasy.cs" />
     <Compile Include="SevenKyu\CouponCode.cs" />
     <Compile Include="SevenKyu\DecimalDigits.cs" />
