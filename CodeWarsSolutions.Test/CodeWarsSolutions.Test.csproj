@@ -69,6 +69,7 @@
     <Compile Include="SevenKyu\IsSquareTests.cs" />
     <Compile Include="SevenKyu\KillKthBitTests.cs" />
     <Compile Include="SevenKyu\KnapsackLightTests.cs" />
+    <Compile Include="SevenKyu\LateRideTests.cs" />
     <Compile Include="SevenKyu\MagicWellTests.cs" />
     <Compile Include="SevenKyu\PatternCraftAdapterTests.cs" />
     <Compile Include="SevenKyu\PatternCraftVisitorTests.cs" />
