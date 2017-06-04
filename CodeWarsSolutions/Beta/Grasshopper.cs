@@ -210,28 +210,5 @@ namespace CodeWarsSolutions.Beta
             return currentPos;
         }
         
-public static void Main(string[] args)
-        {
-            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
-
-            sw.Start();
-            
-            int n = 10;
-            Grasshopper g = new Grasshopper(n, n);
-            Console.WriteLine(g.WhereAmI());
-             
-            g.EatAndHopLeft();
-            g.EatAndHopLeft();
-            g.EatAndHopLeft();
-            g.EatAndHopLeft();
-            g.EatAndHopLeft();
-            Console.WriteLine(g.WhereAmI());
-                
-            sw.Stop();
-            Console.WriteLine(sw.ElapsedMilliseconds);
-            Console.ReadLine();
-
-
-        }
     }
 }
