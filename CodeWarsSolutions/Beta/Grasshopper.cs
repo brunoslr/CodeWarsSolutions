@@ -206,6 +206,7 @@ namespace CodeWarsSolutions.Beta
         /// <returns>Leaf number that grasshopper is feeding on right now.</returns>
         public int WhereAmI()
         {
+            Console.WriteLine(currentPos);
             return currentPos;
         }
         
@@ -214,24 +215,18 @@ public static void Main(string[] args)
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
 
             sw.Start();
-            {
-                int n = 1000000;
-            Grasshopper g = new Grasshopper(n, n-3);
-            Console.WriteLine(g.WhereAmI());
-
             
-                for (int i = 0; i < n/11; i++)
-                {
-                    g.EatAndHopLeft();
-                    g.EatAndHopLeft();
-                    g.EatAndHopLeft();
-                    g.EatAndHopLeft();
-                    g.EatAndHopLeft();
-                    //Console.WriteLine(g.WhereAmI());
-                }
-
-                //code to test
-            }
+            int n = 10;
+            Grasshopper g = new Grasshopper(n, n);
+            Console.WriteLine(g.WhereAmI());
+             
+            g.EatAndHopLeft();
+            g.EatAndHopLeft();
+            g.EatAndHopLeft();
+            g.EatAndHopLeft();
+            g.EatAndHopLeft();
+            Console.WriteLine(g.WhereAmI());
+                
             sw.Stop();
             Console.WriteLine(sw.ElapsedMilliseconds);
             Console.ReadLine();

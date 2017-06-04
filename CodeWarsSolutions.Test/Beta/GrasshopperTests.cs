@@ -33,5 +33,19 @@ namespace CodeWarsSolutions.Tests.Beta
             Assert.IsTrue(ExecutionTimeLessThanFiveSeconds, "Should take less than five seconds");
             
         }
+
+        [Test]
+         public void GrasshopperTests_WhereAmI()
+        {
+            sut = new Grasshopper(20, 10);
+                sut.EatAndHopLeft();
+                sut.EatAndHopLeft();
+                sut.EatAndHopRight();
+                sut.EatAndHopLeft();
+                sut.EatAndHopLeft();
+            Assert.AreEqual(3,sut.WhereAmI() ,"Should take less than five seconds");
+
+        }
+
     }
 }

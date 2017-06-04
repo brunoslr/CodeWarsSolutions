@@ -5,8 +5,6 @@ If the numbers is even return true. If it's odd, return false.
 Oh yeah... the following symbols/commands have been disabled!
 use of percent
 */
-using System;
-using System.Linq;
 
 namespace CodeWarsSolutions.SevenKyu
 {

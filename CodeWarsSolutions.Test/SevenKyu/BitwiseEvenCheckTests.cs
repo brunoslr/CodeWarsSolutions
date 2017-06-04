@@ -12,7 +12,7 @@ namespace CodeWarsSolutions.Test.SevenKyu
         [Test]
         public void IsEven_SourceCode_DoesNotContainModOperator()
         {
-            var text = File.ReadAllText(@"C:\Users\bruno.rocha\Desktop\ProjectsBruno\CodeWarsSolutions\CodeWarsSolutions\SevenKyu\BitwiseEvenCheck.cs");
+            var text = File.ReadAllText(@"C:\Users\bruno\Desktop\ProjectsBruno\CodeWarsSolutions\CodeWarsSolutions\SevenKyu\BitwiseEvenCheck.cs");
             Assert.IsFalse(text.Contains("%"));
         }
 
