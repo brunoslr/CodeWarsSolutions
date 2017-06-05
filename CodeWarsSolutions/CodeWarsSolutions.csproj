@@ -71,10 +71,14 @@
     <Compile Include="Beta\BrickPyramid.cs" />
     <Compile Include="Beta\BSTContain.cs" />
     <Compile Include="Beta\CaesarCypher.cs" />
+    <Compile Include="Beta\Candies.cs" />
+    <Compile Include="Beta\CanViewAllMovies.cs" />
     <Compile Include="Beta\ChangeDateFormat.cs" />
+    <Compile Include="Beta\ChickenAndEggs.cs" />
     <Compile Include="Beta\DoublyNotLess.cs" />
     <Compile Include="Beta\OrderTheInnerStrings.cs" />
     <Compile Include="Beta\Palindrome.cs" />
+    <Compile Include="Beta\PaperStrips.cs" />
     <Compile Include="Beta\ScrabblePrototype.cs" />
     <Compile Include="Beta\Dispatcher.cs" />
     <Compile Include="Beta\Grasshopper.cs" />
@@ -185,7 +189,7 @@
     <Compile Include="SixKyu\TripleDouble.cs" />
     <Compile Include="SixKyu\StrategyPatternRefactorSwitchStatement.cs" />
     <Compile Include="SixKyu\VisitorPatternRefactorSwitchStatement.cs" />
-    <Compile Include="UserInterface.cs" />
+    <Compile Include="Beta\UserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
