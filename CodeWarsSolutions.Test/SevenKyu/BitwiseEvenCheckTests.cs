@@ -9,7 +9,7 @@ namespace CodeWarsSolutions.Test.SevenKyu
     public class BitwiseEvenCheckTests
 
     {
-        [Test]
+        [Test][Ignore("Local test only")]
         public void IsEven_SourceCode_DoesNotContainModOperator()
         {
             var text = File.ReadAllText(@"C:\Users\bruno\Desktop\ProjectsBruno\CodeWarsSolutions\CodeWarsSolutions\SevenKyu\BitwiseEvenCheck.cs");

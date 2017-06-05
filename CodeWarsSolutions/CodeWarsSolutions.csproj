@@ -105,6 +105,7 @@
     <Compile Include="SevenKyu\KnapsackLight.cs" />
     <Compile Include="SevenKyu\LateRideClass.cs" />
     <Compile Include="SevenKyu\MaxDiff.cs" />
+    <Compile Include="SevenKyu\RoundingClass.cs" />
     <Compile Include="SevenKyu\SheepCount.cs" />
     <Compile Include="SevenKyu\ThueMorse.cs" />
     <Compile Include="SevenKyu\WordGuesser.cs" />

@@ -76,6 +76,7 @@
     <Compile Include="SevenKyu\PatternCraftVisitorTests.cs" />
     <Compile Include="SevenKyu\PhoneCallKataTests.cs" />
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
+    <Compile Include="SevenKyu\RoundingClassTests.cs" />
     <Compile Include="SevenKyu\SelectiveSortByHeightTests.cs" />
     <Compile Include="SevenKyu\ShortestWordTests.cs" />
     <Compile Include="SevenKyu\ShuffledArrayKataTests.cs" />
