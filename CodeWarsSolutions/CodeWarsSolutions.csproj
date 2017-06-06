@@ -100,6 +100,7 @@
     <Compile Include="SevenKyu\CypherEasy.cs" />
     <Compile Include="SevenKyu\CouponCode.cs" />
     <Compile Include="SevenKyu\DecimalDigits.cs" />
+    <Compile Include="SevenKyu\DoesFredNeedABoathouse.cs" />
     <Compile Include="SevenKyu\IsInfiniteProcess.cs" />
     <Compile Include="SevenKyu\KillKthBit.cs" />
     <Compile Include="SevenKyu\KnapsackLight.cs" />
