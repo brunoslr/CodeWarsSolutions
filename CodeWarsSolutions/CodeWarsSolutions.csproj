@@ -105,6 +105,7 @@
     <Compile Include="SevenKyu\IsInfiniteProcess.cs" />
     <Compile Include="SevenKyu\KillKthBit.cs" />
     <Compile Include="SevenKyu\KnapsackLight.cs" />
+    <Compile Include="SevenKyu\LampsRow.cs" />
     <Compile Include="SevenKyu\LateRideClass.cs" />
     <Compile Include="SevenKyu\MaxDiff.cs" />
     <Compile Include="SevenKyu\RoundingClass.cs" />
