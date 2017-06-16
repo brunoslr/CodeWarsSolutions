@@ -10,9 +10,10 @@ namespace CodeWarsSolutions.Test.SevenKyu
         public void Test3x3()
         {
             string rectangle = new PrintRectanglesWithAsterisks().GetRectangleString(3, 3);
-            string expected = "***\r\n" +
-                              "* *\r\n" +
-                              "***\r\n";
+            string expected = "****\r\n" +
+                              "*  *\r\n" +
+                              "*  *\r\n" +
+                              "****\r\n";
             Assert.AreEqual(expected, rectangle);
         }
     }
