@@ -109,6 +109,7 @@
     <Compile Include="SevenKyu\LampsRow.cs" />
     <Compile Include="SevenKyu\LateRideClass.cs" />
     <Compile Include="SevenKyu\MaxDiff.cs" />
+    <Compile Include="SevenKyu\Remover.cs" />
     <Compile Include="SevenKyu\RoundingClass.cs" />
     <Compile Include="SevenKyu\SheepCount.cs" />
     <Compile Include="SevenKyu\ThueMorse.cs" />
