@@ -78,6 +78,7 @@
     <Compile Include="SevenKyu\PatternCraftAdapterTests.cs" />
     <Compile Include="SevenKyu\PatternCraftVisitorTests.cs" />
     <Compile Include="SevenKyu\PhoneCallKataTests.cs" />
+    <Compile Include="SevenKyu\PrinterErrorTests.cs" />
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
     <Compile Include="SevenKyu\RoundingClassTests.cs" />
     <Compile Include="SevenKyu\SelectiveSortByHeightTests.cs" />
