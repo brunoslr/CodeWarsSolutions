@@ -116,6 +116,7 @@
     <Compile Include="SevenKyu\ThueMorse.cs" />
     <Compile Include="SevenKyu\TwoToOneDistinct.cs" />
     <Compile Include="SevenKyu\WordGuesser.cs" />
+    <Compile Include="SixKyu\Dubstep.cs" />
     <Compile Include="SixKyu\PrimesWithoutLoop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\AbacabaPuzzle.cs" />
