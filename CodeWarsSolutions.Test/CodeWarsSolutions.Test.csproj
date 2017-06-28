@@ -92,6 +92,7 @@
     <Compile Include="SevenKyu\SortByValueIndexTests.cs" />
     <Compile Include="SevenKyu\ThueMorseTests.cs" />
     <Compile Include="SevenKyu\TimeAndSpaceTests.cs" />
+    <Compile Include="SevenKyu\TriangularTreasureTests.cs" />
     <Compile Include="SevenKyu\TwoToOneDistinctTests.cs" />
     <Compile Include="SevenKyu\WordGuesserKataTests.cs" />
     <Compile Include="SixKyu\AnimalsSortTests.cs" />

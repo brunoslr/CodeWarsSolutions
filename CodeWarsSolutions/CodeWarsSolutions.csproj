@@ -114,6 +114,7 @@
     <Compile Include="SevenKyu\RoundingClass.cs" />
     <Compile Include="SevenKyu\SheepCount.cs" />
     <Compile Include="SevenKyu\ThueMorse.cs" />
+    <Compile Include="SevenKyu\TriangularTreasure.cs" />
     <Compile Include="SevenKyu\TwoToOneDistinct.cs" />
     <Compile Include="SevenKyu\WordGuesser.cs" />
     <Compile Include="SixKyu\Dubstep.cs" />
