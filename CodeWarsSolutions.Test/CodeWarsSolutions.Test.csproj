@@ -97,6 +97,7 @@
     <Compile Include="SevenKyu\WordGuesserKataTests.cs" />
     <Compile Include="SixKyu\AnimalsSortTests.cs" />
     <Compile Include="SixKyu\BuildTowerTests.cs" />
+    <Compile Include="SixKyu\CombatSimulatorTests.cs" />
     <Compile Include="SixKyu\DubstepTests.cs" />
     <Compile Include="SixKyu\FindFilesInDirectoriesTests.cs" />
     <Compile Include="SixKyu\HiddenWordMayaTests.cs" />
