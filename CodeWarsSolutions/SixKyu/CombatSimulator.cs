@@ -5,7 +5,8 @@ namespace CodeWarsSolutions.SixKyu
 {
     public class CombatSimulator
     {
-        private int pcHitPoints, pcDefense, enemyHitPoints, enemyDefense;
+        private int _pcHitPoints, _enemyHitPoints;
+        private readonly int _pcDefense, _enemyDefense;
 
         public enum HitResult
         {
@@ -16,37 +17,34 @@ namespace CodeWarsSolutions.SixKyu
 
         public CombatSimulator(int pcHitPoints, int pcDefense, int enemyHitPoints, int enemyDefense)
         {
-            this.pcHitPoints = pcHitPoints;
-            this.pcDefense = pcDefense;
-            this.enemyHitPoints = enemyHitPoints;
-            this.enemyDefense = enemyDefense;
+            _pcHitPoints = pcHitPoints;
+            _pcDefense = pcDefense;
+            _enemyHitPoints = enemyHitPoints;
+            _enemyDefense = enemyDefense;
 
+        }
+
+        private int AttackPower(int attackRoll, int[] modifiers )
+        {
+            return attackRoll + modifiers?.Sum() ?? 0;
         }
 
         public HitResult PcAttack(int attackRoll, int[] modifiers, int damage)
         {
-            if (pcHitPoints <= 0) return HitResult.PcDead;
+            if (_pcHitPoints <= 0) return HitResult.PcDead;
 
-            var attack = attackRoll;
+            if (AttackPower(attackRoll,modifiers) > _enemyDefense) _enemyHitPoints -= damage;
 
-            if (modifiers != null) attack += modifiers.Sum();
-
-            if (attack > enemyDefense) enemyHitPoints -= damage;
-
-            return (enemyHitPoints <= 0) ? HitResult.EnemyDead : HitResult.FightOn;
+            return (_enemyHitPoints <= 0) ? HitResult.EnemyDead : HitResult.FightOn;
         }
 
         public HitResult EnemyAttack(int attackRoll, int[] modifiers, int damage)
         {
-            if (enemyHitPoints <= 0) return HitResult.EnemyDead;
+            if (_enemyHitPoints <= 0) return HitResult.PcDead;
 
-            var attack = attackRoll;
+            if (AttackPower(attackRoll, modifiers) > _pcDefense) _pcHitPoints -= damage;
 
-            if (modifiers != null) attack += modifiers.Sum();
-
-            if (attack > pcDefense) pcHitPoints -= damage;
-
-            return (pcHitPoints <= 0) ? HitResult.PcDead : HitResult.FightOn;
+            return (_pcHitPoints <= 0) ? HitResult.PcDead : HitResult.FightOn;
         }
     }
 }
