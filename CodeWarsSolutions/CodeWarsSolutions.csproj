@@ -200,6 +200,7 @@
     <Compile Include="SixKyu\SumAndProduct.cs" />
     <Compile Include="SixKyu\TripleDouble.cs" />
     <Compile Include="SixKyu\StrategyPatternRefactorSwitchStatement.cs" />
+    <Compile Include="SixKyu\TwoSum.cs" />
     <Compile Include="SixKyu\VisitorPatternRefactorSwitchStatement.cs" />
     <Compile Include="Beta\UserInterface.cs" />
   </ItemGroup>
