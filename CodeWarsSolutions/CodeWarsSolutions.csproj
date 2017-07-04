@@ -101,6 +101,7 @@
     <Compile Include="SevenKyu\CypherEasy.cs" />
     <Compile Include="SevenKyu\CouponCode.cs" />
     <Compile Include="SevenKyu\DecimalDigits.cs" />
+    <Compile Include="SevenKyu\DiscoverOriginal.cs" />
     <Compile Include="SevenKyu\DoesFredNeedABoathouse.cs" />
     <Compile Include="SevenKyu\FindNextSquareClass.cs" />
     <Compile Include="SevenKyu\IsInfiniteProcess.cs" />

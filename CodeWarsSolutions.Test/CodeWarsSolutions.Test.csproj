@@ -66,6 +66,7 @@
     <Compile Include="SevenKyu\CovfefeTests.cs" />
     <Compile Include="SevenKyu\CypherEasyTests.cs" />
     <Compile Include="SevenKyu\DecimalDigitsTests.cs" />
+    <Compile Include="SevenKyu\DiscoverOriginalTests.cs" />
     <Compile Include="SevenKyu\FibonacciIntroToDynamicTests.cs" />
     <Compile Include="SevenKyu\FindNextSquareTests.cs" />
     <Compile Include="SevenKyu\HandsUpTests.cs" />
