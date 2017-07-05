@@ -10,13 +10,13 @@ namespace CodeWarsSolutions.Tests.Beta
     public class DispatcherTests
     {
 
-        Dispatcher sut;
+        Despachante sut;
         Random rdn;
 
         [OneTimeSetUp]
         public void TestSetup()
         {
-            sut = new Dispatcher();
+            sut = new Despachante();
             rdn = new Random();
         }
 
@@ -24,22 +24,22 @@ namespace CodeWarsSolutions.Tests.Beta
         public void RunDispatcher()
         {
 
-            sut.AcquireWorker(1).PerformTask("Task11");
-            sut.AcquireWorker(2).PerformTask("Task21");
-            Debug.WriteLine(string.Join(", ", sut.AcquireWorker(2).Tasks));
-            sut.ReleaseWorker(2);
-            sut.AcquireWorker(1).PerformTask("Task12");
-            Debug.WriteLine(string.Join(", ", sut.AcquireWorker(1).Tasks));
-            sut.ReleaseWorker(1);
+            sut.AlocarTrabalhador(1).EfetuarTarefa("Task11");
+            sut.AlocarTrabalhador(2).EfetuarTarefa("Task21");
+            Debug.WriteLine(string.Join(", ", sut.AlocarTrabalhador(2).Tarefas));
+            sut.LiberarTrabalhador(2);
+            sut.AlocarTrabalhador(1).EfetuarTarefa("Task12");
+            Debug.WriteLine(string.Join(", ", sut.AlocarTrabalhador(1).Tarefas));
+            sut.LiberarTrabalhador(1);
 
-            Assert.That(sut.Workers.Count(), Is.EqualTo(0));
+            Assert.That(sut.Trabalhadores.Count(), Is.EqualTo(0));
         }
 
         [Test]
         public void RunDispatcherMain()
         {
 
-            Dispatcher.DispatcherMain(new string[] {"","" });
+            Despachante.DispatcherMain(new string[] {"","" });
             
 
             Assert.True(true);

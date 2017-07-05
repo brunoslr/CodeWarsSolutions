@@ -14,9 +14,9 @@ using System.Xml.Linq; //Quick Solution
      
 namespace CodeWarsSolutions.Beta
 {
-    public class Trojan
+    public class ParserKata
     {
-        public static int CountCompromised(string xml, string infectedFileId)
+        public static int ContarComprometidos(string xml, string infectedFileId)
         {
             throw new InvalidOperationException("Waiting to be implemented.");
         }
@@ -46,7 +46,7 @@ namespace CodeWarsSolutions.Beta
                 "   </snapshot>" +
                 "</root>";
 
-            Console.WriteLine(CountCompromised(xml, "3"));
+            Console.WriteLine(ContarComprometidos(xml, "3"));
         }
     }
 }
@@ -94,7 +94,7 @@ namespace CodeWarsSolutions.Beta
             {
                 foreach (File fil in files)
                 {
-                    Trojan.AddNewElemToList(fil.fileID);
+                    ParserKata.AddNewElemToList(fil.fileID);
                 }
             }
 
@@ -112,11 +112,11 @@ namespace CodeWarsSolutions.Beta
         public string fileID { get; set; }
     }
 
-    public class Trojan
+    public class ParserKata
     {
         static List<string> infectedList = new List<string>();
 
-        public static int CountCompromised(string xml, string infectedFileId)
+        public static int ContarComprometidos(string xml, string infectedFileId)
         {
             Data data;
             using (XmlReader reader = XmlReader.Create(new StringReader(xml)))
@@ -179,7 +179,7 @@ namespace CodeWarsSolutions.Beta
                 "   </snapshot>" +
                 "</root>";
 
-            Console.WriteLine(CountCompromised(xml, "2"));
+            Console.WriteLine(ContarComprometidos(xml, "2"));
         }*/
     }
 }
@@ -241,7 +241,7 @@ namespace CodeWarsSolutions.LinqSolution
                 "   </snapshot>" +
                 "</root>";
 
-            Console.WriteLine(CountCompromised(xml, "3"));
+            Console.WriteLine(ContarComprometidos(xml, "3"));
         }*/
     }
 }

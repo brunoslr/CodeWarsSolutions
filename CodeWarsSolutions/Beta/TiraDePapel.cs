@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace CodeWarsSolutions.Beta
 {
-    public class PaperStrip
+    public class TiraDePapel
     {
-        public static int MinPieces(int[] original, int[] desired)
+        public static int MinimoDePecas(int[] original, int[] desired)
         {
             var desiredDictionary = desired.Select((x, i) => new { Value = x, Index = i }).ToDictionary(x => x.Value, x=> x.Index) ;
             var minPieces = original.Length;

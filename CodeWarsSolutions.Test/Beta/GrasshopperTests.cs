@@ -8,7 +8,7 @@ namespace CodeWarsSolutions.Tests.Beta
     public class GrasshopperTests
     {
 
-        Grasshopper sut;
+        Grilo sut;
       
         [TestCase(5000)]
         [TestCase(50000)]
@@ -19,14 +19,14 @@ namespace CodeWarsSolutions.Tests.Beta
             int n = input;
             Stopwatch timer = new System.Diagnostics.Stopwatch();
             timer.Start();
-            sut = new Grasshopper(n, n - 3);
+            sut = new Grilo(n, n - 3);
             for (int i = 0; i < n / 11; i++)
             {
-                sut.EatAndHopLeft();
-                sut.EatAndHopLeft();
-                sut.EatAndHopLeft();
-                sut.EatAndHopLeft();
-                sut.EatAndHopLeft();
+                sut.ComerEPularEsquerda();
+                sut.ComerEPularEsquerda();
+                sut.ComerEPularEsquerda();
+                sut.ComerEPularEsquerda();
+                sut.ComerEPularEsquerda();
             }
             timer.Stop();
             bool ExecutionTimeLessThanFiveSeconds = (timer.ElapsedMilliseconds < 5000);
@@ -37,13 +37,13 @@ namespace CodeWarsSolutions.Tests.Beta
         [Test]
          public void GrasshopperTests_WhereAmI()
         {
-            sut = new Grasshopper(20, 10);
-                sut.EatAndHopLeft();
-                sut.EatAndHopLeft();
-                sut.EatAndHopRight();
-                sut.EatAndHopLeft();
-                sut.EatAndHopLeft();
-            Assert.AreEqual(3,sut.WhereAmI() ,"Should take less than five seconds");
+            sut = new Grilo(20, 10);
+                sut.ComerEPularEsquerda();
+                sut.ComerEPularEsquerda();
+                sut.ComerEPularDireita();
+                sut.ComerEPularEsquerda();
+                sut.ComerEPularEsquerda();
+            Assert.AreEqual(3,sut.OndeEstou() ,"Should take less than five seconds");
 
         }
 
