@@ -76,6 +76,7 @@
     <Compile Include="SevenKyu\LampsRowTests.cs" />
     <Compile Include="SevenKyu\LateRideTests.cs" />
     <Compile Include="SevenKyu\MagicWellTests.cs" />
+    <Compile Include="SevenKyu\MaxDiffLengthTests.cs" />
     <Compile Include="SevenKyu\PatternCraftAdapterTests.cs" />
     <Compile Include="SevenKyu\PatternCraftVisitorTests.cs" />
     <Compile Include="SevenKyu\PhoneCallKataTests.cs" />
