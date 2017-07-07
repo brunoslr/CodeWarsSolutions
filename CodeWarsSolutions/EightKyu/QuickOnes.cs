@@ -178,4 +178,17 @@ namespace CodeWarsSolutions.EightKyu
             this.Name = name;
         }
     }
+
+    /* URL: https://www.codewars.com/kata/sum-of-values-from-1-to-n-inclusive-%7B-nsn-equals-1-%7D/csharp
+     In this Kata , your job is to write a program that finds the sum of the numbers from 1 to n.
+    total(10) => 55
+    total(20) => 210
+    total(34) => 595
+    If you are unsure of what output you got, You can use console.log("Your output") to check
+    { My first Kata , So hope you like it }
+    */
+    public class SumOfValuesFromOneToNInclusive
+    {
+        public static long total(long n) => ((1 + n) * n) / 2;
+    }
 }
