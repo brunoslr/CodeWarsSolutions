@@ -93,6 +93,7 @@
     <Compile Include="EightKyu\QuickOnes.cs" />
     <Compile Include="FiveKyu\HelpYourGranny.cs" />
     <Compile Include="FiveKyu\RegexWithBranching.cs" />
+    <Compile Include="FiveKyu\SimplePigLatin.cs" />
     <Compile Include="FiveKyu\WeirdPrimeGenerator.cs" />
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
     <Compile Include="SevenKyu\AlphabetWars.cs" />

@@ -54,6 +54,7 @@
     <Compile Include="Beta\SingletonAdamAndEveTests.cs" />
     <Compile Include="Beta\SwitchToDictionaryTests.cs" />
     <Compile Include="EightKyu\QuickOnesTests.cs" />
+    <Compile Include="FIveKyu\SimplePigLatinTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\AbacabaPuzzleTests.cs" />
     <Compile Include="SevenKyu\AlphabetWarTests.cs" />
