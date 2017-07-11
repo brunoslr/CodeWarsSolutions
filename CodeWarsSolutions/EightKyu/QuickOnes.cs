@@ -163,17 +163,17 @@ namespace CodeWarsSolutions.EightKyu
     */
     public class DuckDuckGooseClass
     {
-        public static string DuckDuckGoose(DDGPlayer[] players, int goose)
+        public static string DuckDuckGoose(DdgPlayer[] players, int goose)
         {
 
             return players[(goose % players.Length == 0) ? players.Length - 1 : goose % players.Length - 1].Name;
         }
     }
-    public class DDGPlayer
+    public class DdgPlayer
     {
         public string Name { get; set; }
 
-        public DDGPlayer(string name)
+        public DdgPlayer(string name)
         {
             this.Name = name;
         }
@@ -189,6 +189,6 @@ namespace CodeWarsSolutions.EightKyu
     */
     public class SumOfValuesFromOneToNInclusive
     {
-        public static long total(long n) => ((1 + n) * n) / 2;
+        public static long Total(long n) => ((1 + n) * n) / 2;
     }
 }
