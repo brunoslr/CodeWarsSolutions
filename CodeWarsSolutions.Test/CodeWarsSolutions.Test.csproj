@@ -122,6 +122,7 @@
     <Compile Include="SixKyu\SplitStringKataTests.cs" />
     <Compile Include="SixKyu\StrategyPatternBirdBehaviorTests.cs" />
     <Compile Include="SixKyu\SumAndProductTests.cs" />
+    <Compile Include="SixKyu\ThirteenTests.cs" />
     <Compile Include="SixKyu\TwoSumTests.cs" />
   </ItemGroup>
   <ItemGroup>

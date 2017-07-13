@@ -22,7 +22,7 @@ using System.Linq;
 namespace CodeWarsSolutions.SixKyu
 {
 
-    public class Thirteen
+    public class DivisibleByThirteen
     {
 
         public static long Thirt(long n)
