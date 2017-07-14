@@ -96,6 +96,7 @@
     <Compile Include="SevenKyu\SimpleFunRegexHappyCharTests.cs" />
     <Compile Include="SevenKyu\SmoothTests.cs" />
     <Compile Include="SevenKyu\SortByValueIndexTests.cs" />
+    <Compile Include="SevenKyu\TacofyTests.cs" />
     <Compile Include="SevenKyu\ThueMorseTests.cs" />
     <Compile Include="SevenKyu\TimeAndSpaceTests.cs" />
     <Compile Include="SevenKyu\TriangularTreasureTests.cs" />
