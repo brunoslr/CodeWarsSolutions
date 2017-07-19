@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CodeWarsSolutions.EightKyu
@@ -190,5 +191,18 @@ namespace CodeWarsSolutions.EightKyu
     public class SumOfValuesFromOneToNInclusive
     {
         public static long Total(long n) => ((1 + n) * n) / 2;
+    }
+
+    /*
+    Write function sumList (or sum_list) which will calculate the sum of the elements of the given list (or array in Javascript and C).
+    For example:
+    [1, 2, 3] -> 1 + 2 + 3 -> 6
+    */
+    public static class SumListOfValues
+    {
+        public static int SumList(List<int> list)
+        {
+            return list.Aggregate(0, (a, b) => a + b);
+        }
     }
 }
