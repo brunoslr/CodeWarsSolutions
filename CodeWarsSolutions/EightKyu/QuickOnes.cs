@@ -230,4 +230,14 @@ namespace CodeWarsSolutions.EightKyu
         }
     }
 
+    /*URL: https://www.codewars.com/kata/exclamation-marks-series-number-4-remove-all-exclamation-marks-from-sentence-but-ensure-a-exclamation-mark-at-the-end-of-string/csharp
+     * Remove all exclamation marks from sentence but ensure a exclamation 
+     * mark at the end of string. For a beginner kata, you can assume that 
+     * the input data is always a non empty string, no need to verify it.
+     */
+    public class RemoveExclamations
+    {
+        public static string Remove(string s) => s.Replace("!", "") + "!";
+    }
+
 }

@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beta\CandleTests.cs" />
     <Compile Include="Beta\DispatcherTests.cs" />
     <Compile Include="Beta\DoublyNotLessTests.cs" />
     <Compile Include="Beta\GrasshopperTests.cs" />

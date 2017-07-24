@@ -71,7 +71,7 @@
     <Compile Include="Beta\BrickPyramid.cs" />
     <Compile Include="Beta\BSTContain.cs" />
     <Compile Include="Beta\CaesarCypher.cs" />
-    <Compile Include="Beta\Doces.cs" />
+    <Compile Include="Beta\CandleKata.cs" />
     <Compile Include="Beta\DaPraVerTodosFilmes.cs" />
     <Compile Include="Beta\MudaFormatoData.cs" />
     <Compile Include="Beta\GalinhaEOvos.cs" />
