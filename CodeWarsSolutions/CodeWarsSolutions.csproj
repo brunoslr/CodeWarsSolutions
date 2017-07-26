@@ -121,6 +121,7 @@
     <Compile Include="SevenKyu\RoundingClass.cs" />
     <Compile Include="SevenKyu\SheepCount.cs" />
     <Compile Include="SevenKyu\SimpleConcatGame.cs" />
+    <Compile Include="SevenKyu\SimpleFactorial.cs" />
     <Compile Include="SevenKyu\TacofyClass.cs" />
     <Compile Include="SevenKyu\ThueMorse.cs" />
     <Compile Include="SevenKyu\TriangularTreasure.cs" />

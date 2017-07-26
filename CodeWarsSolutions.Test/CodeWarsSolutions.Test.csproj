@@ -94,6 +94,7 @@
     <Compile Include="SevenKyu\ShuffledArrayKataTests.cs" />
     <Compile Include="SevenKyu\SimpleConcatGameTests.cs" />
     <Compile Include="SevenKyu\SimpleExtensionMethodsTests.cs" />
+    <Compile Include="SevenKyu\SimpleFactorialTests.cs" />
     <Compile Include="SevenKyu\SimpleFunPlantDoublingTests.cs" />
     <Compile Include="SevenKyu\SimpleFunRankOfElementTests.cs" />
     <Compile Include="SevenKyu\SimpleFunRegexHappyCharTests.cs" />
