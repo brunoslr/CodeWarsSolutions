@@ -238,6 +238,12 @@ namespace CodeWarsSolutions.EightKyu
     public class RemoveExclamations
     {
         public static string Remove(string s) => s.Replace("!", "") + "!";
-    }
 
+        public static string RemoveOneFromEndOfLine(string s)
+        {
+            return System.Text.RegularExpressions.Regex.Replace(s, @"!$", "");
+        }
+    }
 }
+
+

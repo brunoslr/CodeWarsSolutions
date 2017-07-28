@@ -51,7 +51,7 @@
     <Compile Include="Beta\CandleTests.cs" />
     <Compile Include="Beta\DispatcherTests.cs" />
     <Compile Include="Beta\DoublyNotLessTests.cs" />
-    <Compile Include="Beta\GrasshopperTests.cs" />
+    <Compile Include="Beta\GriloTests.cs" />
     <Compile Include="Beta\SingletonAdamAndEveTests.cs" />
     <Compile Include="Beta\SwitchToDictionaryTests.cs" />
     <Compile Include="EightKyu\QuickOnesTests.cs" />
