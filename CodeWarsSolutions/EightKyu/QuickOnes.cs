@@ -244,6 +244,18 @@ namespace CodeWarsSolutions.EightKyu
             return System.Text.RegularExpressions.Regex.Replace(s, @"!$", "");
         }
     }
+
+    /*Write a function that takes an array of strings as an argument 
+     and returns a sorted array containing the same strings, ordered from shortest to longest.*/
+    public class SortingKata
+    {
+        public static string[] SortByLength(string[] array)
+        {
+            return array.OrderBy(s => s.Length).ToArray();
+        }
+    }
+
+
 }
 
 

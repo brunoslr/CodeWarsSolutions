@@ -55,6 +55,15 @@ namespace CodeWarsSolutions.Test.EightKyu
         {
             Assert.Throws<InvalidOperationException>(() => ArrayMath.Product(new int[] { }));
         }
+
+        [Test]
+        public void ExampleTests()
+        {
+            Assert.AreEqual(new string[] { "I", "To", "Beg", "Life" }, SortingKata.SortByLength(new string[] { "Beg", "Life", "To", "I" }));
+            Assert.AreEqual(new string[] { "", "Pizza", "Brains", "Moderately" }, SortingKata.SortByLength(new string[] { "", "Moderately", "Brains", "Pizza" }));
+            Assert.AreEqual(new string[] { "Short", "Longer", "Longest" }, SortingKata.SortByLength(new string[] { "Longer", "Longest", "Short" }));
+        }
+
     }
 
 }
