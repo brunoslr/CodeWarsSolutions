@@ -88,6 +88,7 @@
     <Compile Include="SevenKyu\PrinterErrorTests.cs" />
     <Compile Include="SevenKyu\RecursionTests.cs" />
     <Compile Include="SevenKyu\ReverseFirstTests.cs" />
+    <Compile Include="SevenKyu\ReverseLetterTests.cs" />
     <Compile Include="SevenKyu\RoundingClassTests.cs" />
     <Compile Include="SevenKyu\SelectiveSortByHeightTests.cs" />
     <Compile Include="SevenKyu\ShortestWordTests.cs" />

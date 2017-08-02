@@ -118,6 +118,7 @@
     <Compile Include="SevenKyu\PrinterErrorsClass.cs" />
     <Compile Include="SevenKyu\Recursion.cs" />
     <Compile Include="SevenKyu\Remover.cs" />
+    <Compile Include="SevenKyu\ReverseLetter.cs" />
     <Compile Include="SevenKyu\RoundingClass.cs" />
     <Compile Include="SevenKyu\SheepCount.cs" />
     <Compile Include="SevenKyu\SimpleConcatGame.cs" />
