@@ -107,6 +107,7 @@
     <Compile Include="SevenKyu\DoesFredNeedABoathouse.cs" />
     <Compile Include="SevenKyu\FindNextSquareClass.cs" />
     <Compile Include="SevenKyu\GpsSpeed.cs" />
+    <Compile Include="SevenKyu\GrowingPlants.cs" />
     <Compile Include="SevenKyu\IsInfiniteProcess.cs" />
     <Compile Include="SevenKyu\KillKthBit.cs" />
     <Compile Include="SevenKyu\KnapsackLight.cs" />

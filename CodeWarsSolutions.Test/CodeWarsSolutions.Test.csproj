@@ -73,6 +73,7 @@
     <Compile Include="SevenKyu\FibonacciIntroToDynamicTests.cs" />
     <Compile Include="SevenKyu\FindNextSquareTests.cs" />
     <Compile Include="SevenKyu\GpsSpeedTests.cs" />
+    <Compile Include="SevenKyu\GrowingPlantsTests.cs" />
     <Compile Include="SevenKyu\HandsUpTests.cs" />
     <Compile Include="SevenKyu\IsSquareTests.cs" />
     <Compile Include="SevenKyu\KillKthBitTests.cs" />
