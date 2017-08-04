@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace CodeWarsSolutions.EightKyu
@@ -272,6 +273,14 @@ namespace CodeWarsSolutions.EightKyu
         public static bool vampire_test(long x, long y)
         {
             return String.Concat($"{x}{y}".OrderBy(c => c)) == String.Concat($"{x * y}".OrderBy(c => c));
+        }
+    }
+
+    public class ToMoneyClass
+    {
+        public static string FormatMoney(double amount)
+        {
+            return String.Format(new CultureInfo("en-US"), "{0:C}", amount);
         }
     }
 
