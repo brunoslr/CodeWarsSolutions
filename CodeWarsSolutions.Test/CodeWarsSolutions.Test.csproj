@@ -117,6 +117,7 @@
     <Compile Include="SixKyu\LongestConsecutivesTests.cs" />
     <Compile Include="SixKyu\ManageRobotFactoryTests.cs" />
     <Compile Include="SixKyu\MexicanWaveTests.cs" />
+    <Compile Include="SixKyu\MissingLetterTests.cs" />
     <Compile Include="SixKyu\NotSoRandomKataTests.cs" />
     <Compile Include="SixKyu\PatternCraftCommandTests.cs" />
     <Compile Include="SixKyu\PatternCraftDecoratorTests.cs" />

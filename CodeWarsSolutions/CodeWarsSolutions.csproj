@@ -131,6 +131,7 @@
     <Compile Include="SevenKyu\WordGuesser.cs" />
     <Compile Include="SixKyu\CombatSimulator.cs" />
     <Compile Include="SixKyu\Dubstep.cs" />
+    <Compile Include="SixKyu\MissingLetter.cs" />
     <Compile Include="SixKyu\PrimesWithoutLoop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SevenKyu\AbacabaPuzzle.cs" />
