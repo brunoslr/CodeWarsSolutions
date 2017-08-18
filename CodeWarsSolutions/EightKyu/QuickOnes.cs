@@ -346,6 +346,28 @@ namespace CodeWarsSolutions.EightKyu
             return System.Math.Round(n * 2) / 2;
         }
     }
+
+    /* URL:
+     Your task is to write a function maskify, which changes all but the last four characters into '#'.
+        Examples
+        Kata.Maskify('4556364607935616'); // should return "############5616"
+        Kata.Maskify('64607935616');      // should return "#######5616"
+        Kata.Maskify('1');                // should return "1"
+        Kata.Maskify('');                 // should return ""
+        // "What was the name of your first pet?"
+        Kata.Maskify('Skippy');                                   // should return "##ippy"
+        Kata.Maskify('Nananananananananananananananana Batman!'); // should return "####################################man!"
+         */
+    public static class MaskLastFourNumbers
+    {
+        public static string Maskify(string cc)
+        {
+            if (cc.Length < 5) return cc;
+
+            return new string('#', cc.Length - 4) + cc.Substring(cc.Length - 4);
+        }
+    }
+
 }
 
 
