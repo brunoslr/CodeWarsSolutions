@@ -370,7 +370,7 @@ namespace CodeWarsSolutions.EightKyu
         // "What was the name of your first pet?"
         Kata.Maskify('Skippy');                                   // should return "##ippy"
         Kata.Maskify('Nananananananananananananananana Batman!'); // should return "####################################man!"
-         */
+    */
     public static class MaskLastFourNumbers
     {
         public static string Maskify(string cc)
@@ -381,6 +381,17 @@ namespace CodeWarsSolutions.EightKyu
         }
     }
 
+    /* You will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value.
+
+    Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
+     */
+    public static class CheckContains
+    {
+        public static bool Check(object[] a, object x)
+        {
+            return a.Contains(x);
+        }
+    }
 }
 
 
