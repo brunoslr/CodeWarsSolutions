@@ -392,6 +392,18 @@ namespace CodeWarsSolutions.EightKyu
             return a.Contains(x);
         }
     }
+
+    /*Given an input n, write a function always that returns a function which returns n. Ruby should return a lambda or a proc.
+        Func<int> three = Kata.Always(3);
+        three(); // returns 3      
+    */
+    public class FunctionWithinFunction
+    {
+        public static Func<int> Always(int n) =>
+            () => n;
+
+    }
+
 }
 
 
