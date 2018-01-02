@@ -393,6 +393,12 @@ namespace CodeWarsSolutions.EightKyu
 
     }
 
+    //Get the number n to return the reversed sequence from n to 1. Example : n=5 >> [5,4,3,2,1]
+    public static class ReverseSequenceKata
+    {
+        public static int[] ReverseSeq(int n) => Enumerable.Range(1, n).Reverse().ToArray();
+    }
+
 }
 
 
