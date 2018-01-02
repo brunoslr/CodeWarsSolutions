@@ -8,15 +8,13 @@ namespace CodeWarsSolutions.EightKyu
     /* URL:https://www.codewars.com/kata/short-long-short/train/csharp
      Given 2 strings, a and b, return a string of the form short+long+short, 
      with the shorter string on the outside and the longer string on the inside. 
-     The strings will not be the same length, but they may be empty (length0).
+     The strings will not be the same length, but they may be empty (length).
 
         For example:
 
         ShortLongShort.Solution("1", "22"); // returns "1221"
-        ShortLongShort.Solution("22", "1"); // returns "1221"  
-            
+        ShortLongShort.Solution("22", "1"); // returns "1221"              
      */
-
     public class ShortLongShort
     {
         public static string Solution(string a, string b)
@@ -28,9 +26,7 @@ namespace CodeWarsSolutions.EightKyu
     /*URL: https://www.codewars.com/kata/smallest-unused-id/train/csharp
      Description:
      You've got much data to manage and of course you use zero-based and non-negative ID's to make each data item unique!
-
      Therefore you need a method, which returns the smallest unused ID for your next new data item...
-
      Note: The given array of used IDs may be unsorted. 
      For test reasons there may be duplicate IDs, but you don't have to find or remove them!
     */
@@ -88,7 +84,7 @@ namespace CodeWarsSolutions.EightKyu
     boolean array, string with operator' s name: 'AND', 'OR', 'XOR'.
     Output:
     calculated boolean
-        */
+    */
     public class LogicalCalculator
     {
         public static bool LogicalCalc(bool[] array, string op)
@@ -105,7 +101,6 @@ namespace CodeWarsSolutions.EightKyu
                     return false;
             }
         }
-
     }
 
     /* URL: https://www.codewars.com/kata/how-many-stairs-will-suzuki-climb-in-20-years/train/csharp
@@ -286,9 +281,7 @@ namespace CodeWarsSolutions.EightKyu
 
     /* URL: https://www.codewars.com/kata/odd-or-even/csharp
         Given an array of numbers, determine whether the sum of all of the numbers is odd or even.
-
         Give your answer in string format as 'odd' or 'even'.
-
         If the input array is empty consider it as: [0] (array with a zero).
 
         Example:
@@ -328,8 +321,7 @@ namespace CodeWarsSolutions.EightKyu
             return count;
         }
     }
-    /*
-    Round any given number to the closest 0.5 step
+    /* Round any given number to the closest 0.5 step
     I.E.
 
     solution(4.2) = 4
@@ -346,6 +338,7 @@ namespace CodeWarsSolutions.EightKyu
             return System.Math.Round(n * 2) / 2;
         }
     }
+
     /* URL: https://www.codewars.com/kata/javascript-array-filter/train/csharp 
     Starting with .NET Framework 3.5, C# supports a Where (in the System.Linq namespace) method which allows a user to filter arrays based on a predicate. Use the Where method to complete the function given.
     Enumerable.Where documentation: https://msdn.microsoft.com/en-us/library/bb534803(v=vs.110).aspx
@@ -358,10 +351,7 @@ namespace CodeWarsSolutions.EightKyu
         }
     }
 
-
-
-    /* URL:
-     Your task is to write a function maskify, which changes all but the last four characters into '#'.
+    /* Your task is to write a function maskify, which changes all but the last four characters into '#'.
         Examples
         Kata.Maskify('4556364607935616'); // should return "############5616"
         Kata.Maskify('64607935616');      // should return "#######5616"
@@ -382,7 +372,6 @@ namespace CodeWarsSolutions.EightKyu
     }
 
     /* You will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value.
-
     Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
      */
     public static class CheckContains
