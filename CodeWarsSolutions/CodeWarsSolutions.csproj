@@ -98,6 +98,7 @@
     <Compile Include="FourKyu\SquareIntoSquares.cs" />
     <Compile Include="SevenKyu\AlphabetWars.cs" />
     <Compile Include="SevenKyu\BitwiseEvenCheck.cs" />
+    <Compile Include="SevenKyu\ConcatenatedSum.cs" />
     <Compile Include="SevenKyu\CovfefeClass.cs" />
     <Compile Include="SevenKyu\CypherEasy.cs" />
     <Compile Include="SevenKyu\CouponCode.cs" />
