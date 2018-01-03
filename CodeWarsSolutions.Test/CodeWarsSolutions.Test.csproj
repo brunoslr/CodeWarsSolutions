@@ -61,6 +61,7 @@
     <Compile Include="SevenKyu\AlphabetWarTests.cs" />
     <Compile Include="SevenKyu\AlternateCaseKataTests.cs" />
     <Compile Include="SevenKyu\AscOrderTests.cs" />
+    <Compile Include="SevenKyu\BinaryConversionTests.cs" />
     <Compile Include="SevenKyu\BitwiseEvenCheckTests.cs" />
     <Compile Include="SevenKyu\CartesianNeighborsTest.cs" />
     <Compile Include="SevenKyu\ComplementaryDNATests.cs" />
