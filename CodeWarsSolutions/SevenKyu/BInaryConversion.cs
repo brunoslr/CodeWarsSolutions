@@ -20,6 +20,7 @@
     Return Value 
     Type: System.Int32
     The binary representation of the argument as an integer.
+     return int.Parse(Convert.ToString(n, 2));
 */
 using System;
 
@@ -35,7 +36,7 @@ namespace CodeWarsSolutions.SevenKyu
                 result = $"{n % 2}{result}";
                 n = n / 2;
             }
-            return Int32.Parse($"1{result}");
+            return Int32.Parse($"{n}{result}");
 
         }
     }
