@@ -108,6 +108,7 @@
     <Compile Include="SevenKyu\DivSeven.cs" />
     <Compile Include="SevenKyu\DoesFredNeedABoathouse.cs" />
     <Compile Include="SevenKyu\FindNextSquareClass.cs" />
+    <Compile Include="SevenKyu\GoingToCinema.cs" />
     <Compile Include="SevenKyu\GpsSpeed.cs" />
     <Compile Include="SevenKyu\GrowingPlants.cs" />
     <Compile Include="SevenKyu\IsInfiniteProcess.cs" />
