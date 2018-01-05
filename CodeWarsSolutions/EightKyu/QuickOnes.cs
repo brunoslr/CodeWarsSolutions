@@ -430,6 +430,15 @@ namespace CodeWarsSolutions.EightKyu
         }
     }
 
+
+    //noobCode 01: SUPERSIZE ME.... or rather, this integer!
+    public class SuperSizeLong
+    {
+        public static long SuperSize(long num)
+        {
+            return Int64.Parse(String.Concat(num.ToString().OrderByDescending(c => c)));
+        }
+    }
 }
 
 
