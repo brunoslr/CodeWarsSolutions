@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace CodeWarsSolutions.SixKyu
 {
-    class SequenceEqual
+    public class SequenceEqual
     {
         public static bool comp(int[] a, int[] b)
         {
