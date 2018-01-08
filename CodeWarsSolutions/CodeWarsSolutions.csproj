@@ -206,6 +206,7 @@
     <Compile Include="SixKyu\ReduceFractions.cs" />
     <Compile Include="SixKyu\ReducingByRules.cs" />
     <Compile Include="SixKyu\ReverseWordsInAString.cs" />
+    <Compile Include="SixKyu\SequenceEqual.cs" />
     <Compile Include="SixKyu\SlotMachine.cs" />
     <Compile Include="SixKyu\SortingTheRabbitHole.cs" />
     <Compile Include="SixKyu\SplitStringKata.cs" />
