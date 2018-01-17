@@ -439,6 +439,16 @@ namespace CodeWarsSolutions.EightKyu
             return Int64.Parse(String.Concat(num.ToString().OrderByDescending(c => c)));
         }
     }
+
+    /*
+    An isogram is a word that has no repeating letters, consecutive or non-consecutive.
+    Implement a function that determines whether a string that contains only letters is an isogram.
+    Assume the empty string is an isogram. Ignore letter case.*/
+    public static class Isogram
+    {
+        public static bool IsIsogram(string s) => s.ToLower().Distinct().Count()==s.Length;
+        //public static bool IsIsogram(string s) => s.ToLower().All(c => s.ToLower().Count(x => x == c) < 2);
+    }
 }
 
 
