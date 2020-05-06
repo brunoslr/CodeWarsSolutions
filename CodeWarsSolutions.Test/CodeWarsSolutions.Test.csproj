@@ -109,6 +109,7 @@
     <Compile Include="SevenKyu\TriangularTreasureTests.cs" />
     <Compile Include="SevenKyu\TwoToOneDistinctTests.cs" />
     <Compile Include="SevenKyu\WordGuesserKataTests.cs" />
+    <Compile Include="SixKyu\SoccerTableTests.cs" />
     <Compile Include="SixKyu\AnimalsSortTests.cs" />
     <Compile Include="SixKyu\BuildTowerTests.cs" />
     <Compile Include="SixKyu\CombatSimulatorTests.cs" />

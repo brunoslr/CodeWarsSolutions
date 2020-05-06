@@ -208,6 +208,7 @@
     <Compile Include="SixKyu\ReverseWordsInAString.cs" />
     <Compile Include="SixKyu\SequenceEqual.cs" />
     <Compile Include="SixKyu\SlotMachine.cs" />
+    <Compile Include="SixKyu\SoccerTable.cs" />
     <Compile Include="SixKyu\SortingTheRabbitHole.cs" />
     <Compile Include="SixKyu\SplitStringKata.cs" />
     <Compile Include="SixKyu\SqrtIntegerApproximation.cs" />
